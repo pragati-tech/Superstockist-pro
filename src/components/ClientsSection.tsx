@@ -5,7 +5,7 @@ import { ArrowRight, Sparkles, Star, Zap } from "lucide-react";
 import NestleImg from '../assets/brands/Nestle.png';
 import ReoImg from '../assets/brands/Reo.png';
 import HavellsImg from '../assets/brands/Havells.png';
-import NestleProfImg from '../assets/brands/nestle_profer.png';
+import NestleProfImg from '../assets/brands/Nestle_Profer.png';
 
 // Super Stockists
 import TitanImg from '../assets/brands/Titan.png';
@@ -14,11 +14,11 @@ import FastrackImg from '../assets/brands/Fastrack.png';
 import PolycabImg from '../assets/brands/Polycab.png';
 
 // Exclusive Stores
-import TitanWorldImg from '../assets/brands/titan_world.png';
+import TitanWorldImg from '../assets/brands/Titan_World.png';
 import HeliosImg from '../assets/brands/Helios.png';
 import FastrackStoreImg from '../assets/brands/Fastrack_Store.png';
 import NescafeKiosksImg from '../assets/brands/Nescafe.png';
-import MiaImg from '../assets/brands/mia.png';
+import MiaImg from '../assets/brands/Mia.png';
 
 const ClientsSection = () => {
   const businessCategories = [

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Sparkles, Heart, Star } from "lucide-react";
-import Miaimg from "../assets/brands/mia.png"
+import Miaimg from "../assets/brands/Mia.png"
 
 const MiaPage = () => {
   return (
