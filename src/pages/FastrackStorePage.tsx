@@ -13,25 +13,21 @@ const FastrackStorePage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Fastrackimg}
             alt =""
-            className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
+            className="h-30 mx-auto bject-contain drop-shadow-lg"
             loading="lazy"
           />
 
-          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Fastrack Store
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The Fastrack Store was opened in 2018. And we are currently operating 2 stores of Fastrack.
-          </p>
+            {/* <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
+              Fastrack Store
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              The Fastrack Store was opened in 2018. And we are currently operating 2 stores of Fastrack.
+            </p> */}
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">

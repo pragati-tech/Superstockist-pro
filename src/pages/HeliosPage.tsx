@@ -13,21 +13,14 @@ const HeliosPage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
            <img
             src= {Heliosimg}
             alt =""
-            className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
+            className="h-20 mx-auto object-cover drop-shadow-lg"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
-            Helios
-          </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The Helios store was opened in 2018 and in this we provide international brands like Movado, Seiko, Tissot, Fossile and many more.
           </p>
@@ -119,7 +112,7 @@ const HeliosPage = () => {
               <ul className="space-y-2 text-gray-400">
                <li>Ground floor, DB Mall, Opp. Railway Station, Gwalior(M.P.)</li>
                <li>0751-4924138, +91-9111006214</li>
-                <li>ktplanuj@yahoo.co.in</li>
+                <li>Hmgw@titan.co.in</li>
               </ul>
             </div>
           </div>

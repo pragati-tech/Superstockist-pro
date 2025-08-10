@@ -13,44 +13,21 @@ const HavellsPage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"    >
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Havellsimg  }
             alt =""
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Havells Appliances
-          </h1>
+         
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We have been distributors of Havells appliances since 2014. Covering Gwalior city and an upcountry town with almost 200 retailers.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Zap className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Electrical Solutions</CardTitle>
-              <CardDescription>
-                Comprehensive range of electrical products and solutions
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Switches & sockets</li>
-                <li>• Wires & cables</li>
-                <li>• Circuit protection</li>
-                <li>• Industrial equipment</li>
-              </ul>
-            </CardContent>
-          </Card>
 
           <Card className="hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
