@@ -13,45 +13,19 @@ const SonataPage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
-
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Sonataimg}
             alt =""
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Sonata
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+            We have been the ditributors of Sonata since 1995. We are covering Gwalior city and Gwalior division to service multi-brand outlets, and every district is covered : Shivpuri, Datia, Bhind, Morena, Chhatarpur and Guna. Covering 50 dealers.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Clock className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Quality Timepieces</CardTitle>
-              <CardDescription>
-                Reliable watches that stand the test of time with precision and durability
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Analog watches</li>
-                <li>• Digital watches</li>
-                <li>• Dress watches</li>
-                <li>• Casual timepieces</li>
-              </ul>
-            </CardContent>
-          </Card>
-
           <Card className="hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
               <Star className="h-8 w-8 text-business-600 mb-2" />

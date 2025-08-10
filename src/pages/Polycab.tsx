@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Link } from "react-router-dom";
 import { ArrowLeft, Target, Sparkles, Palette } from "lucide-react";
 import Polycabimg from "../assets/brands/Polycab.png"
+import { ArrowRight } from "lucide-react";
 
 const PolycabPage = () => {
   return (
@@ -13,80 +14,59 @@ const PolycabPage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
-
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Polycabimg}
             alt =""
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Polycab
-          </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We started Polycab lighting distributor and superstockist in 2024. We cover Gwalior city and the Gwalior division.
           </p>
         </div>
+<div className="flex justify-around gap-8 mb-10">
+          {/* Card 1 */}
+          <a href="">
+        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Target className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Fashion Accessories</CardTitle>
-              <CardDescription>
-                Complete range of fashion accessories for every style
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Fashion jewelry</li>
-                <li>• Hair accessories</li>
-                <li>• Bags & purses</li>
-                <li>• Style essentials</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Polycab"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Sparkles className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Trendy Designs</CardTitle>
-              <CardDescription>
-                Latest fashion trends with contemporary styling
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Contemporary designs</li>
-                <li>• Seasonal collections</li>
-                <li>• Trend-focused items</li>
-                <li>• Style statements</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">LED Catalogue</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+</a>
+          {/* Card 2 - Duplicate for now */}
+          <a href="">
+   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Palette className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Style Variety</CardTitle>
-              <CardDescription>
-                Diverse styles to match every personality and occasion
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Casual wear accessories</li>
-                <li>• Formal accessories</li>
-                <li>• Party wear items</li>
-                <li>• Everyday essentials</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Polycab"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Fan Catalogue</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+</a>
+          {/* Repeat above block for more cards */}
         </div>
       </div>
 

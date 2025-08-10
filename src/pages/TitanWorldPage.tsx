@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Link } from "react-router-dom";
 import { ArrowLeft, Star, Crown, Award } from "lucide-react";
 import TitanWorldimg from "../assets/brands/titan_world.png"
+import { ArrowRight } from "lucide-react";
 
 const TitanWorldPage = () => {
   return (
@@ -13,80 +14,60 @@ const TitanWorldPage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
-
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {TitanWorldimg}
             alt =""
-            className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
+            className="h-20 mx-auto bject-contain drop-shadow-lg"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Titan World
-          </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We currently have 2 Titan World showrroms. The first showroom opened in 2008, and the second opened in 2018.
+            We currently have 2 Titan World showrooms. The first showroom opened in 2008, and the second opened in 2018.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Star className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Premium Collections</CardTitle>
-              <CardDescription>
-                Exclusive watch collections from Titan's finest ranges
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Titan Edge</li>
-                <li>• Titan Raga</li>
-                <li>• Limited editions</li>
-                <li>• Exclusive designs</li>
-              </ul>
-            </CardContent>
-          </Card>
+        <div className="flex justify-around gap-8 mb-10">
+          {/* Card 1 */}
+   
+        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Crown className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Premium Service</CardTitle>
-              <CardDescription>
-                Personalized shopping experience with expert guidance
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Personal consultations</li>
-                <li>• Custom fittings</li>
-                <li>• Watch servicing</li>
-                <li>• After-sales support</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Titan_World"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Award className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Exclusive Store</CardTitle>
-              <CardDescription>
-                Elegant retail environment showcasing the best of Titan
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Premium ambiance</li>
-                <li>• Complete collections</li>
-                <li>• Expert staff</li>
-                <li>• VIP experience</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Store 1</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+
+          {/* Card 2 - Duplicate for now */}
+       
+   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Titan_World"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Store 2</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+
+          {/* Repeat above block for more cards */}
         </div>
       </div>
     <footer className="bg-gray-900 text-white py-5">
@@ -116,9 +97,10 @@ const TitanWorldPage = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><b>Head Office : </b>3rd Floor, Rukmani Mansion, Sarafa Bazaar, <br />Lashkar, Gwalior-474001</li>
-                <li><b>Tel : </b>0751-2450303, 2371408</li>
-                <li>ktplanuj@yahoo.co.in</li>
+                <li><b>Store 1 : </b>Ground Floor, DB Mall, Opp. Railway Station, <br />Gwalior-474001</li>
+                <li>kgm@titan.co.in</li>
+                 <li><b>Store 2 : </b>Opp. Chetakpuri Petrol Pump, <br />Lashkar, Gwalior-474001</li>
+                <li>Wktlw@titan.co.in</li>
               </ul>
             </div>
           </div>

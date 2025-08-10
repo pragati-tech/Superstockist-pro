@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
 import Heliosimg from "../assets/brands/Helios.png"
+import { ArrowRight } from "lucide-react";
 
 const HeliosPage = () => {  
   return (
@@ -26,61 +27,47 @@ const HeliosPage = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Clock className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Watch Collections</CardTitle>
-              <CardDescription>
-                Curated selection of premium timepieces
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Luxury watches</li>
-                <li>• Sports watches</li>
-                <li>• Classic timepieces</li>
-                <li>• Limited editions</li>
-              </ul>
-            </CardContent>
-          </Card>
+       <div className="flex justify-around gap-8 mb-10">
+          {/* Card 1 */}
+          
+        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Zap className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Expert Service</CardTitle>
-              <CardDescription>
-                Professional watch services and maintenance
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Watch repairs</li>
-                <li>• Battery replacement</li>
-                <li>• Strap changes</li>
-                <li>• Maintenance service</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Helios"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Store className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Retail Experience</CardTitle>
-              <CardDescription>
-                Premium shopping environment with expert guidance
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Personal consultations</li>
-                <li>• Product demonstrations</li>
-                <li>• Gift wrapping</li>
-                <li>• Warranty support</li>
-              </ul>
-            </CardContent>
-          </Card>
-        </div>  
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Visit Store</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+          {/* Card 2 - Duplicate for now */}
+   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src=""
+        alt="Helios"
+        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
+      />
+    </div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Visit Store</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+
+          {/* Repeat above block for more cards */}
+        </div>
       </div>
 
       <footer className="bg-gray-900 text-white py-5">

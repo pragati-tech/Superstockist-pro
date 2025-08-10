@@ -180,7 +180,7 @@ const ClientsSection = () => {
                   ))}
                 </div>
               </div>
-            );
+            ); 
           })}
         </div>
 

@@ -13,24 +13,16 @@ const NestlePage = () => {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Link to="/" className="inline-flex items-center text-business-600 hover:text-business-700 mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Link>
-
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Nestleimg}
             alt =""
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
-            Nestle
-          </h1>
           <p className="text-xl text-gray-600 max-w-5xl mx-auto">
             We have been Nestle's distributor since 1985. Covering Gwalior city and we are connected to almost 1500 retailers.
-           <br />Product : Maggie, KitKat, Nescafe
+           <br />Product : Maggie, KitKat, Coffee
           </p>
         </div>
 
