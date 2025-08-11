@@ -28,11 +28,11 @@ const HeroSection = () => {
         {/* Main Heading with Gradient */}
         <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-4 animate-fade-in">
           <span className="bg-gradient-to-r from-white via-business-300 to-white bg-clip-text text-transparent">
-            Premium
+            KE & KTPL
           </span>
           <br />
           <span className="bg-gradient-to-r from-business-100 via-business-500 to-business-600 bg-clip-text text-transparent">
-            SuperStockist Pro
+            Firm Enterprises
           </span>
           <br />
         </h1>

@@ -6,6 +6,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Link } from "react-router-dom";
 import { ArrowLeft, Coffee, Heart, Award } from "lucide-react";
 import Nestleimg from "../assets/brands/Nestle.png"
+import { ArrowRight } from "lucide-react";
+import Maggieimg from "../assets/brands/Maggie.jpg"
+import Kitkatimg from "../assets/brands/Kitkat.png"
+import Coffeeimg from "../assets/brands/Coffee.png"
 
 const NestlePage = () => {
   return (
@@ -26,42 +30,61 @@ const NestlePage = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Coffee className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Beverages</CardTitle>
-              <CardDescription>
-                Premium coffee, tea, and beverage solutions for every taste
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Nescafe coffee range</li>
-                <li>• Nestea beverages</li>
-                <li>• Hot chocolate mixes</li>
-                <li>• Specialty drinks</li>
-              </ul>
-            </CardContent>
-          </Card>
+        <div className="flex justify-around gap-8 mb-10">
+          {/* Card 1 */}
+        
+        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <Heart className="h-8 w-8 text-business-600 mb-2" />
-              <CardTitle>Nutrition & Health</CardTitle>
-              <CardDescription>
-                Nutritious food products supporting healthy lifestyles
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Baby nutrition</li>
-                <li>• Health supplements</li>
-                <li>• Dairy products</li>
-                <li>• Wellness foods</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src={Maggieimg}
+        alt="Maggie"
+        className="object-contain transition-transform duration-500 group-hover:scale-110 mt-20"
+      />
+    </div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Maggie</span>
+      </div>
+    </div>
+  </div>
+          {/* Card 2 */}
+   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div className="flex justify-center items-center h-[250px]">
+      <img
+        src={Kitkatimg}
+        alt="Kitkat"
+        className="object-contain transition-transform duration-500 group-hover:scale-110 mt-20"
+      />
+    </div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Kitkat</span>
+      </div>
+    </div>
+  </div>
+
+      {/* Card 3 */}
+
+      <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div
+  className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+  style={{ backgroundImage: `url(${Coffeeimg  })` }}
+>
+</div>
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Coffee</span>
+      </div>
+    </div>
+  </div>
+    
+          {/* Repeat above block for more cards */}
         </div>
       </div>
 

@@ -80,8 +80,8 @@ const MiaPage = () => {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                <li>Opp. Chetakpuri Petrol Pump, Lashkar, Gwalior(M.P.)</li>
-                <li>0751-4033491, +91-911100456</li>
-                <li>Btgmgc@titan.co.in</li>
+                <li>0751-4024777, +9109402477</li>
+                <li>Btqmgc@titan.co.in</li>
               </ul>
             </div>
           </div>

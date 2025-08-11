@@ -98,7 +98,7 @@ const HeliosPage = () => {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                <li>Ground floor, DB Mall, Opp. Railway Station, Gwalior(M.P.)</li>
-               <li>0751-4924138, +91-9111006214</li>
+               <li>9109198628</li>
                 <li>Hmgw@titan.co.in</li>
               </ul>
             </div>
