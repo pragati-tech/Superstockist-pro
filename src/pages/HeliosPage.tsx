@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
 import Heliosimg from "../assets/brands/Helios.png"
 import { ArrowRight } from "lucide-react";
+import Store1 from "../assets/brands/Helios_Store.jpg"
+import Store2 from "../assets/brands/Helios_Store2.jpg"
 
 const HeliosPage = () => {  
   return (
@@ -32,36 +34,30 @@ const HeliosPage = () => {
           
         <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-    <div className="flex justify-center items-center h-[250px]">
-      <img
-        src=""
-        alt="Helios"
-        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
-      />
-    </div>
+          <div
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Store1})` }}
+      >
+      </div>
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Visit Store</span>
-        <ArrowRight className="w-3 h-3" />
+        <span className="text-xs font-medium">Store 1</span>
       </div>
     </div>
   </div>
           {/* Card 2 - Duplicate for now */}
    <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-    <div className="flex justify-center items-center h-[250px]">
-      <img
-        src=""
-        alt="Helios"
-        className="h-24 object-contain transition-transform duration-500 group-hover:scale-110"
-      />
-    </div>
+     <div
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Store2})` }}
+      >
+      </div>
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Visit Store</span>
-        <ArrowRight className="w-3 h-3" />
+        <span className="text-xs font-medium">Store 2</span>
       </div>
     </div>
   </div>
