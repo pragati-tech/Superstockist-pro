@@ -26,7 +26,7 @@ const NescafeKiosksPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We started the nescafe kiosk in 2023, which we opened in the universities and hospitals of Gwalioer. Now we are currently managing approximately 5 kiosks.
+            We started the nescafe kiosk in 2023, which we opened in the universities and hospitals of Gwalior. Now we are currently managing approximately 5 kiosks.
           </p>
         </div>
 
@@ -36,67 +36,68 @@ const NescafeKiosksPage = () => {
         <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
         style={{ backgroundImage: `url(${Store1})`}}
       >
+        <div className="absolute bottom-4 right-5 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
+      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
+        <span className="text-xs font-medium">IIITM University, Morena Rd Gwalior</span><br/>
+        <span className="text-xs font-medium">Madhya Pradesh, 474015</span>
       </div>
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Store 1</span>
-        
-      </div>
+       
     </div>
+      </div>
   </div>
+  
           {/* Card 2 - Duplicate for now */}
    <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
      <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
         style={{ backgroundImage: `url(${Store2})` }}
       >
+        <div className="absolute bottom-4 left-8 -translate-x-1 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 py-3">
+      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
+        <span className="text-xs font-medium">Green South Revenue, Shivpuri Link Rd, </span><br/>
+        <span className="text-xs font-medium">Gwalior, Madhya Pradesh, 474001</span>
       </div>
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Store 2</span>
-
-      </div>
+       
     </div>
+      </div>
   </div>
 
           {/* Card 3 */}
            <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
         style={{ backgroundImage: `url(${Store3})` }}
       >
+        <div className="absolute bottom-4 left-4 -translate-x-1 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
+      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
+        <span className="text-xs font-medium">ITM University, Jhansi Rd, Turari, Gwalior, </span><br/>
+        <span className="text-xs font-medium">Madhya Pradesh, 474015</span>
       </div>
-
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Store 3</span>
-      </div>
+       
     </div>
+      </div>
   </div>
 
   {/* Card 4 */}
    <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
         style={{ backgroundImage: `url(${Store4})` }}
       >
+        <div className="absolute bottom-4 right-8 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
+      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
+        <span className="text-xs font-medium">Amity University, Maharajpura, </span><br/>
+        <span className="text-xs font-medium">Gwalior, Madhya Pradesh, 474005</span>
       </div>
-
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Store 4</span>
-      </div>
+       
     </div>
+      </div>
   </div>  
 
           {/* Repeat above block for more cards */}

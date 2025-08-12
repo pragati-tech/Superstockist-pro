@@ -28,17 +28,19 @@ const HeroSection = () => {
         {/* Main Heading with Gradient */}
         <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-4 animate-fade-in">
           <span className="bg-gradient-to-r from-white via-business-300 to-white bg-clip-text text-transparent">
-            KE & KTPL
+            Khandelwal Enterprises
           </span>
+          <br/>
+          <span>&</span>
           <br />
           <span className="bg-gradient-to-r from-business-100 via-business-500 to-business-600 bg-clip-text text-transparent">
-            Firm Enterprises
+            Krishna Tradelinks Pvt. Ltd. 
           </span>
           <br />
         </h1>
 
         {/* Enhanced Subtitle */}
-        <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed animate-fade-in font-light">
+        <p className="text-xl md:text-2xl text-gray-300 mb-5 max-w-4xl mx-auto leading-relaxed animate-fade-in font-light">
           Expert kiosk and store setup solutions for <span className="text-business-400 font-bold">25+ premium brands</span>. 
           <br className="hidden md:block" />
           From <span className="text-business-400 font-medium">Tanishq</span> and <span className="text-business-400 font-medium">Titan</span> to <span className="text-business-400 font-medium">Nescafe</span> and <span className="text-business-400 font-medium">Havells</span> - we bring brands to life with strategic retail setups.
