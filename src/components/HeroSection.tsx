@@ -1,7 +1,8 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Store, MapPin, Wrench, Users } from "lucide-react";
-
+import KELogo from "../assets/brands/KE_Logo.png"
+import KTPLLogo from "../assets/brands/KTPL_Logo.png" 
 const HeroSection = () => {
   return (
         <section className="relative min-h-[92vh] max-h-[80vh] flex items-center justify-center overflow-hidden bg-gray-900 shadow-2xl border border-gray-800">
@@ -26,7 +27,7 @@ const HeroSection = () => {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         
         {/* Main Heading with Gradient */}
-        <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-4 animate-fade-in">
+        <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-20 animate-fade-in">
           <span className="bg-gradient-to-r from-white via-business-300 to-white bg-clip-text text-transparent">
             Khandelwal Enterprises
           </span>
@@ -40,40 +41,34 @@ const HeroSection = () => {
         </h1>
 
         {/* Enhanced Subtitle */}
-        <p className="text-xl md:text-2xl text-gray-300 mb-5 max-w-4xl mx-auto leading-relaxed animate-fade-in font-light">
-          Expert kiosk and store setup solutions for <span className="text-business-400 font-bold">25+ premium brands</span>. 
-          <br className="hidden md:block" />
-          From <span className="text-business-400 font-medium">Tanishq</span> and <span className="text-business-400 font-medium">Titan</span> to <span className="text-business-400 font-medium">Nescafe</span> and <span className="text-business-400 font-medium">Havells</span> - we bring brands to life with strategic retail setups.
-        </p>
+          {/* <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed animate-fade-in font-light">
+            Expert kiosk and store setup solutions for <span className="text-business-400 font-bold">25+ premium brands</span>.  */}
+          {/* <br className="hidden md:block" />
+          From <span className="text-business-400 font-medium">Tanishq</span> and <span className="text-business-400 font-medium">Titan</span> to <span className="text-business-400 font-medium">Nescafe</span> and <span className="text-business-400 font-medium">Havells</span> - we bring brands to life with strategic retail setups. */}
+        {/* </p> */}
 
         {/* Visual Summary Icons */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 max-w-3xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
           <div className="flex flex-col items-center group animate-fade-in">
-            <div className="w-16 h-16 bg-gradient-to-br from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 border border-business-500/30">
-              <Store className="w-8 h-8 text-business-400" />
+            <div className="w-max h-max from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300">
+              <div  className="text-business-400">
+                <img 
+                style={{width:"250px"}}
+                src={KELogo} 
+                alt="KELOGO" />
+              </div>
             </div>
-            <span className="text-sm text-gray-400 font-medium">Store Setup</span>
           </div>
           
           <div className="flex flex-col items-center group animate-fade-in">
-            <div className="w-16 h-16 bg-gradient-to-br from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 border border-business-500/30">
-              <MapPin className="w-8 h-8 text-business-400" />
+            <div className="w-max h-max from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300">
+              <div className="text-business-400">
+                <img 
+                style={{width:"300px"}}
+                src={KTPLLogo} 
+                alt="KELOGO" />
+              </div>
             </div>
-            <span className="text-sm text-gray-400 font-medium">Strategic Locations</span>
-          </div>
-          
-          <div className="flex flex-col items-center group animate-fade-in">
-            <div className="w-16 h-16 bg-gradient-to-br from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 border border-business-500/30">
-              <Wrench className="w-8 h-8 text-business-400" />
-            </div>
-            <span className="text-sm text-gray-400 font-medium">Expert Installation</span>
-          </div>
-          
-          <div className="flex flex-col items-center group animate-fade-in">
-            <div className="w-16 h-16 bg-gradient-to-br from-business-500/20 to-business-600/20 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 border border-business-500/30">
-              <Users className="w-8 h-8 text-business-400" />
-            </div>
-            <span className="text-sm text-gray-400 font-medium">25+ Brands</span>
           </div>
         </div>
 
