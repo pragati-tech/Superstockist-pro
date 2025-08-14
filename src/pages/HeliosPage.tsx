@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import ImageCarousel from "@/components/ImageCarousal";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
 import Heliosimg from "../assets/brands/Helios.png"
@@ -30,23 +31,22 @@ const HeliosPage = () => {
         </div>
 
        <div className="flex justify-around gap-8 mb-10">
-          {/* Card 2 - Duplicate for now */}
-   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+          {/* Card 1 */}
+          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+              <span className="text-sm font-medium text-gray-700">Store 1</span>
+            </div>
 
-     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
-        style={{ backgroundImage: `url(${Store1})` }}
-      >
-      </div>
+          </div>
 
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Visit Store</span>
-      </div>
-    </div>
-  </div>
-
-          {/* Repeat above block for more cards */}
+          {/* Card 2 */}
+          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+            {/* <ImageCarousel images={[Store2, Store2b]} /> */}
+            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+              <span className="text-sm font-medium text-gray-700">Store 2</span>
+            </div>
+          </div>
         </div>
       </div>
 

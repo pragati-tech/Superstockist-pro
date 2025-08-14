@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import ImageCarousel from "@/components/ImageCarousal";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Coffee, MapPin, Clock } from "lucide-react";
 import Nescafeimg from "../assets/brands/Nescafe.png"
@@ -33,72 +34,33 @@ const NescafeKiosksPage = () => {
         <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
          
-        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+         <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+              <span className="text-sm font-medium text-gray-700">ITM University Jhansi Rd, Turari, Gwalior, Lakhnotikhurd, Madhya Pradesh</span><br/>
+              <span className="text-sm font-medium text-gray-700">474001</span>
+            </div>
 
-    <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
-        style={{ backgroundImage: `url(${Store1})`}}
-      >
-        <div className="absolute bottom-4 right-5 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
-      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
-        <span className="text-xs font-medium">IIITM University, Morena Rd Gwalior</span><br/>
-        <span className="text-xs font-medium">Madhya Pradesh, 474015</span>
-      </div>
-       
-    </div>
-      </div>
-  </div>
+          </div>
+
   
           {/* Card 2 - Duplicate for now */}
-   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
-        style={{ backgroundImage: `url(${Store2})` }}
-      >
-        <div className="absolute bottom-4 left-8 -translate-x-1 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 py-3">
-      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
-        <span className="text-xs font-medium">Green South Revenue, Shivpuri Link Rd, </span><br/>
-        <span className="text-xs font-medium">Gwalior, Madhya Pradesh, 474001</span>
-      </div>
-       
-    </div>
-      </div>
-  </div>
+           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+              <span className="text-sm font-medium text-gray-700">Amity University opposite Airport, Maharajpura, Gwalior, Madhya Pradesh</span><br/>
+              <span className="text-sm font-medium text-gray-700">474005</span>
+            </div>
+          </div>
 
           {/* Card 3 */}
-           <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-    <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
-        style={{ backgroundImage: `url(${Store3})` }}
-      >
-        <div className="absolute bottom-4 left-4 -translate-x-1 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
-      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
-        <span className="text-xs font-medium">ITM University, Jhansi Rd, Turari, Gwalior, </span><br/>
-        <span className="text-xs font-medium">Madhya Pradesh, 474015</span>
-      </div>
-       
-    </div>
-      </div>
-  </div>
-
-  {/* Card 4 */}
-   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-    <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110 mb-5"
-        style={{ backgroundImage: `url(${Store4})` }}
-      >
-        <div className="absolute bottom-4 right-8 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 p-3">
-      <div className="text-center text-gray-700 bg-white/80 backdrop-blur-sm p-2 rounded-full shadow">
-        <span className="text-xs font-medium">Amity University, Maharajpura, </span><br/>
-        <span className="text-xs font-medium">Gwalior, Madhya Pradesh, 474005</span>
-      </div>
-       
-    </div>
-      </div>
-  </div>  
+           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+              <span className="text-sm font-medium text-gray-700">IIITM University Morena Rd, IIITM Campus, Gwalior , Madhya Pradesh</span><br/>
+              <span className="text-sm font-medium text-gray-700">474015</span>
+            </div>
+          </div>  
 
           {/* Repeat above block for more cards */}
         </div>      

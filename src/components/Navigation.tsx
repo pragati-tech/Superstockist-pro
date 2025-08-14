@@ -44,21 +44,21 @@ const Navigation = () => {
               {dropdownOpen && (
                 <div className="absolute font-medium bg-white border shadow-md rounded-md mt-2 min-w-[160px] z-50">
                   <a
-                    href="#distributor-section"
+                    href="/#distributor-section"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setDropdownOpen(false)}
                   >
                     Distributor
                   </a>
                   <a
-                    href="#super-stockist-section"
+                    href="/#super-stockist-section"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setDropdownOpen(false)}
                   >
                     Superstockist
                   </a>
                   <a
-                    href="#exclusive-stores-section"
+                    href="/#exclusive-stores-section"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setDropdownOpen(false)}
                   >
@@ -68,7 +68,7 @@ const Navigation = () => {
               )}
             </div>
 
-            <a href="#contact">
+            <a href="/#contact">
               <h1 className="text-gray-900 font-medium">Contact</h1>
             </a >
           </div>
