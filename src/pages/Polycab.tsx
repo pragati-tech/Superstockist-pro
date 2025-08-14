@@ -10,7 +10,7 @@ import { ArrowRight } from "lucide-react";
 import Catalogue1img from "../assets/brands/Polycab_Catalogue1.jpg";
 import Catalogue2img from "../assets/brands/Polycab_Catalogue2.jpg";
 import Catalogue1 from "../assets/brands/Polycab_Catalogue1.pdf";
-import Catalogue2 from "../assets/brands/Polycab_Catalogue2.pdf";
+import Catalogue2 from "../assets/brands/Polycab_Fan_Catalogue.pdf";
 
 const PolycabPage = () => {
   return (
