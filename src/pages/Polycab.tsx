@@ -8,7 +8,7 @@ import { ArrowLeft, Target, Sparkles, Palette } from "lucide-react";
 import Polycabimg from "../assets/brands/Polycab.png"
 import { ArrowRight } from "lucide-react";
 import Catalogue1img from "../assets/brands/Polycab_Catalogue1.jpg";
-import Catalogue2img from "../assets/brands/Polycab_Catalogue2.jpg";
+import Catalogue2img from "../assets/brands/Polycab_Catalogue.jpg";
 import Catalogue1 from "../assets/brands/Polycab_Catalogue1.pdf";
 import Catalogue2 from "../assets/brands/Polycab_Fan_Catalogue.pdf";
 
