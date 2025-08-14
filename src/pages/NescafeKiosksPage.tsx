@@ -8,10 +8,14 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Coffee, MapPin, Clock } from "lucide-react";
 import Nescafeimg from "../assets/brands/Nescafe.png"
 import { ArrowRight } from "lucide-react";
-import Store1 from "../assets/brands/Nescafe1.jpg"
-import Store2 from "../assets/brands/Nescafe2.jpg"
-import Store3 from "../assets/brands/Nescafe3.jpg"
-import Store4 from "../assets/brands/Nescafe4.jpg"
+import Store1a from "../assets/brands/Nescafe_Store1a.jpeg"
+import Store1b from "../assets/brands/Nescafe_Store1b.jpeg"
+import Store1c from "../assets/brands/Nescafe_Store1c.jpeg"
+import Store2a from "../assets/brands/Nescafe_Store2a.jpeg"
+import Store2b from "../assets/brands/Nescafe_Store2b.jpeg"
+import Store3a from "../assets/brands/Nescafe_Store3a.jpeg"
+import Store3b from "../assets/brands/Nescafe_Store3b.jpeg"
+import Store3c from "../assets/brands/Nescafe_Store3c.jpeg"
 
 const NescafeKiosksPage = () => {
   return (
@@ -35,7 +39,7 @@ const NescafeKiosksPage = () => {
           {/* Card 1 */}
          
          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <ImageCarousel images={[Store1a, Store1b, Store1c]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">ITM University Jhansi Rd, Turari, Gwalior, Lakhnotikhurd, Madhya Pradesh</span><br/>
               <span className="text-sm font-medium text-gray-700">474001</span>
@@ -46,7 +50,7 @@ const NescafeKiosksPage = () => {
   
           {/* Card 2 - Duplicate for now */}
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <ImageCarousel images={[Store2a, Store2b]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Amity University opposite Airport, Maharajpura, Gwalior, Madhya Pradesh</span><br/>
               <span className="text-sm font-medium text-gray-700">474005</span>
@@ -55,7 +59,7 @@ const NescafeKiosksPage = () => {
 
           {/* Card 3 */}
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <ImageCarousel images={[Store3a, Store3b, Store3c]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">IIITM University Morena Rd, IIITM Campus, Gwalior , Madhya Pradesh</span><br/>
               <span className="text-sm font-medium text-gray-700">474015</span>

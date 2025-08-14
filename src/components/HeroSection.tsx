@@ -35,17 +35,10 @@ const HeroSection = () => {
           <span>&</span>
           <br />
           <span className="bg-gradient-to-r from-business-100 via-business-500 to-business-600 bg-clip-text text-transparent">
-            Krishna Tradelinks Pvt. Ltd. 
+            Krishna Tradlink Pvt. Ltd. 
           </span>
           <br />
         </h1>
-
-        {/* Enhanced Subtitle */}
-          {/* <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed animate-fade-in font-light">
-            Expert kiosk and store setup solutions for <span className="text-business-400 font-bold">25+ premium brands</span>.  */}
-          {/* <br className="hidden md:block" />
-          From <span className="text-business-400 font-medium">Tanishq</span> and <span className="text-business-400 font-medium">Titan</span> to <span className="text-business-400 font-medium">Nescafe</span> and <span className="text-business-400 font-medium">Havells</span> - we bring brands to life with strategic retail setups. */}
-        {/* </p> */}
 
         {/* Visual Summary Icons */}
         <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">

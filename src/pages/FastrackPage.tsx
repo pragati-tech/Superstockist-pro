@@ -2,11 +2,11 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useState, useEffect } from "react";
 import Fastrackimg from "../assets/brands/Fastrack.png";
-import Store1 from "../assets/brands/Titan_world_fastrack.jpg";
-import Store1b from "../assets/brands/Titan_world_fastrack2.jpg";
-import Store1c from "../assets/brands/Havells_Catalogue1.jpg" 
-import Store2 from "../assets/brands/Titan_world_fastrack2.jpg";
-import Store2b from "../assets/brands/Titan_world_fastrack.jpg"; 
+// import Store1 from "../assets/brands/Titan_world_fastrack.jpg";
+// import Store1b from "../assets/brands/Titan_world_fastrack2.jpg";
+// import Store1c from "../assets/brands/Havells_Catalogue1.jpg" 
+// import Store2 from "../assets/brands/Titan_world_fastrack2.jpg";
+// import Store2b from "../assets/brands/Titan_world_fastrack.jpg"; 
 import ImageCarousel from "@/components/ImageCarousal";
 
 const FastrackPage = () => {
@@ -33,7 +33,7 @@ const FastrackPage = () => {
         <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1, Store1b, Store1c]} />
+            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 1</span>
             </div>
@@ -42,7 +42,7 @@ const FastrackPage = () => {
 
           {/* Card 2 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store2, Store2b]} />
+            {/* <ImageCarousel images={[Store2, Store2b]} /> */}
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 2</span>
             </div>

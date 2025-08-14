@@ -8,10 +8,18 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Star, Crown, Award } from "lucide-react";
 import TitanWorldimg from "../assets/brands/titan_world.png"
 import { ArrowRight } from "lucide-react";
-import Store1 from "../assets/brands/Titan_world_fastrack.jpg"
-import Store1b from "../assets/brands/Titan_world_fastrack2.jpg"
-import Store2 from "../assets/brands/Titan_world_fastrack2.jpg"
-import Store2b from "../assets/brands/Titan_world_fastrack.jpg"
+import Store1a from "../assets/brands/Titan_World1a.jpeg"
+import Store1b from "../assets/brands/Titan_World1b.jpeg"
+import Store1c from "../assets/brands/Titan_World1c.jpeg"
+import Store1d from "../assets/brands/Titan_World1d.jpeg"
+import Store1e from "../assets/brands/Titan_World1e.jpeg"
+import Store1f from "../assets/brands/Titan_World1f.jpeg"
+import Store1g from "../assets/brands/Titan_World1g.jpeg"
+import Store2a from "../assets/brands/Titan_World2a.jpeg"
+import Store2b from "../assets/brands/Titan_World2b.jpeg"
+import Store2c from "../assets/brands/Titan_World2c.jpeg"
+import Store2d from "../assets/brands/Titan_World2d.jpeg"
+import Store2e from "../assets/brands/Titan_World2e.jpeg"
 
 const TitanWorldPage = () => {
   return (
@@ -34,7 +42,7 @@ const TitanWorldPage = () => {
         <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1, Store1b]} />
+            <ImageCarousel images={[Store1a, Store1b, Store1c, Store1d, Store1e, Store1f, Store1g]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 1</span>
             </div>
@@ -43,7 +51,7 @@ const TitanWorldPage = () => {
 
           {/* Card 2 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store2, Store2b]} />
+            <ImageCarousel images={[Store2a, Store2b, Store2c, Store2d, Store2e]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 2</span>
             </div>
