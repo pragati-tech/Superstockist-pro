@@ -9,6 +9,11 @@ import { ArrowLeft, Sparkles, Heart, Star } from "lucide-react";
 import Miaimg from "../assets/brands/mia.png"
 import { ArrowRight } from "lucide-react";
 import Store1 from "../assets/brands/Mia_Store.jpg"
+import Store2 from "../assets/brands/Mia2.jpg"
+import Store3 from "../assets/brands/Mia3.jpg"
+import Store4 from "../assets/brands/Mia4.jpg"
+import Store5 from "../assets/brands/Mia5.jpg"
+import Store6 from "../assets/brands/Mia6.jpg"
 
 const MiaPage = () => {
   return (
@@ -32,7 +37,7 @@ const MiaPage = () => {
         <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
+            <ImageCarousel images={[Store1, Store2, Store3, Store4, Store5, Store6]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Visit Store</span>
             </div>
