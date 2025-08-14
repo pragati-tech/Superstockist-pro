@@ -38,7 +38,7 @@ const HavellsPage = () => {
         <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[500px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[400px] h-[520px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogueimg})` }}
       >
       </div>
