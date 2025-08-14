@@ -68,7 +68,7 @@ const Navigation = () => {
               )}
             </div>
 
-            <a href="/#contact">
+            <a href="/  #contact">
               <h1 className="text-gray-900 font-medium">Contact</h1>
             </a >
           </div>
