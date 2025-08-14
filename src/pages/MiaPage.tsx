@@ -9,11 +9,11 @@ import { ArrowLeft, Sparkles, Heart, Star } from "lucide-react";
 import Miaimg from "../assets/brands/mia.png"
 import { ArrowRight } from "lucide-react";
 import Store1 from "../assets/brands/Mia_Store.jpg"
-import Store2 from "../assets/brands/Mia2.jpg"
-import Store3 from "../assets/brands/Mia3.jpg"
-import Store4 from "../assets/brands/Mia4.jpg"
-import Store5 from "../assets/brands/Mia5.jpg"
-import Store6 from "../assets/brands/Mia6.jpg"
+import Store2 from "../assets/brands/Mia2.jpeg"
+import Store3 from "../assets/brands/Mia3.jpeg"
+import Store4 from "../assets/brands/Mia4.jpeg"
+import Store5 from "../assets/brands/Mia5.jpeg"
+import Store6 from "../assets/brands/Mia6.jpeg"
 
 const MiaPage = () => {
   return (
