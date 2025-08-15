@@ -8,7 +8,12 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Rocket, Gamepad2, Store } from "lucide-react";
 import Fastrackimg from "../assets/brands/Fastrack_Store.png"
 import { ArrowRight } from "lucide-react";
-import Store1 from "../assets/brands/Fastrack_Store1a.jpeg"
+import Store1a from "../assets/brands/Fastrack_Store_1a.jpeg";
+import Store1b from "../assets/brands/Fastrack_Store_1b.jpeg";
+import Store1c from "../assets/brands/Fastrack_Store_1c.jpeg";
+import Store2a from "../assets/brands/Fastrack_Store_2a.jpeg";
+import Store2b from "../assets/brands/Fastrack_Store_2b.jpeg";
+
 
 
 const FastrackStorePage = () => {
@@ -34,7 +39,7 @@ const FastrackStorePage = () => {
           {/* Card 1 */}
          
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1]} />
+            <ImageCarousel images={[Store1a, Store1b, Store1c]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 1</span>
             </div>
@@ -43,7 +48,7 @@ const FastrackStorePage = () => {
           {/* Card 2 - Duplicate for now */}
         
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1]} />
+            <ImageCarousel images={[Store2a, Store2b]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">Store 2</span>
             </div>
