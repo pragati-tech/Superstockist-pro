@@ -9,10 +9,10 @@ import { ArrowLeft, Rocket, Gamepad2, Store } from "lucide-react";
 import Fastrackimg from "../assets/brands/Fastrack_Store.png"
 import { ArrowRight } from "lucide-react";
 import Store1a from "../assets/brands/Fastrack_Store_1a.jpeg";
-import Store1b from "../assets/brands/Fastrack_Store_1b.jpeg";
-import Store1c from "../assets/brands/Fastrack_Store_1c.jpeg";
-import Store2a from "../assets/brands/Fastrack_Store_2a.jpeg";
-import Store2b from "../assets/brands/Fastrack_Store_2b.jpeg";
+import Store1b from "../assets/brands/Fastrack_Store1b.jpeg";
+import Store1c from "../assets/brands/Fastrack_Store1c.jpeg";
+import Store2a from "../assets/brands/Fastrack_Store2a.jpeg";
+import Store2b from "../assets/brands/Fastrack_Store2b.jpeg";
 
 
 
