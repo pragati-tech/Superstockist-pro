@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         
         {/* Main Heading with Gradient */}
-{/*         <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-20 animate-fade-in">
+        <h1 className="text-3xl md:text-7xl lg:text-7xl font-bold mb-20 animate-fade-in">
           <span className="bg-gradient-to-r from-white via-business-300 to-white bg-clip-text text-transparent">
             Khandelwal Enterprises
           </span>
@@ -39,7 +39,7 @@ const HeroSection = () => {
           </span>
           <br />
         </h1>
- */}
+
         {/* Visual Summary Icons */}
         <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
           <div className="flex flex-col items-center group animate-fade-in">

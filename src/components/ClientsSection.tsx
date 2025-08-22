@@ -13,6 +13,12 @@ import SonataImg from '../assets/brands/Sonata.png';
 import FastrackImg from '../assets/brands/Fastrack.png';
 import PolycabImg from '../assets/brands/Polycab.png';
 
+// Licensed Stores
+import AnneKleinimg from "../assets/brands/Anne_Klein.png"
+import TommyHilfigherimg from '../assets/brands/Tommy_Hilfigher.png'
+import KennethKoleimg from "../assets/brands/kenneth_Cole.png"
+import Policeimg from "../assets/brands/Police.png"
+
 // Exclusive Stores
 import TitanWorldImg from '../assets/brands/titan_world.png';
 import HeliosImg from '../assets/brands/Helios.png';
@@ -24,7 +30,6 @@ const ClientsSection = () => {
   const businessCategories = [
     {
       title: "Distributor",
-      description: "Premium Brand Distribution",
       gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
       bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
       shadowColor: "shadow-blue-500/20",
@@ -37,7 +42,6 @@ const ClientsSection = () => {
     },
     {
       title: "Super Stockists",
-      description: "Premium Lifestyle Brands",
       gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
       bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
       shadowColor: "shadow-blue-500/20",
@@ -49,8 +53,19 @@ const ClientsSection = () => {
       ]
     },
     {
+      title: "Licensed Stores",
+      gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
+      bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
+      shadowColor: "shadow-blue-500/20",
+      brands: [
+        { name: "Anne Klein", img: AnneKleinimg, description: "Since 1985", path: "/brands/nestle" },
+        { name: "Tommy Hilfigher", img: TommyHilfigherimg, description: "Since 2014", path: "/brands/reo" },
+        { name: "Kenneth Cole", img: KennethKoleimg, description: "Since 2014", path: "/brands/havells" },
+        { name: "Police", img: Policeimg, description: "Since 2018", path: "/brands/nestle-profer" },
+      ]
+    },
+    {
       title: "Exclusive Stores",
-      description: "Premium Retail Experience",
       gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
       bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
       shadowColor: "shadow-blue-500/20",  
