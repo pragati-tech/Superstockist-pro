@@ -33,7 +33,7 @@ const HeliosPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The Helios store was opened in 2018 and in this we provide international brands like Movado, Seiko, Tissot, Fossile and many more.
+            We launched Gwalior's first exclusive Helios store in 2018, providing premium international brands like Movado, Seiko, Tissot, Fossil etc.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const HeliosPage = () => {
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store1, Store2, Store3, Store4, Store5, Store6, Store7, Store8, Store9]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Visit Store</span>
+              <span className="text-sm font-medium text-gray-700">DB Mall Store</span>
             </div>
           </div>
         </div>

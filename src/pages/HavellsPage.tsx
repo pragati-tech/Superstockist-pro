@@ -9,8 +9,8 @@ import Havellsimg from "../assets/brands/Havells.png";
 import { ArrowRight } from "lucide-react";
 import Catalogueimg from "../assets/brands/Havells_Catalogue1.jpg";
 import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg";
-import Catalogue1 from "../assets/brands/Havells_Catalogue1.pdf"
-import Catalogue2 from "../assets/brands/Havells_Catalogue2.pdf"
+import Catalogue1 from "../assets/pdfs/Havells_Catalogue1.pdf"
+import Catalogue2 from "../assets/pdfs/Havells_Catalogue2.pdf"
 
 const HavellsPage = () => {
   return (
@@ -28,7 +28,7 @@ const HavellsPage = () => {
           />
          
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We have been distributors of Havells appliances since 2014. Covering Gwalior city and an upcountry town with almost 200 retailers.
+            Since 2014, we have managed the distribution of Havells appliances in Gwalior city and upcountry towns, reaching a network of over 200 retailers.
           </p>
         </div>
 

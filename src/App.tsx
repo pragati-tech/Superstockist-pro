@@ -8,6 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Loader from "@/components/loader";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import DirectorPage from "./components/DirectorSection";
 import NotFound from "./pages/NotFound";
 import TitanPage from "./pages/TitanPage";
 import MiaPage from "./pages/MiaPage";
@@ -18,6 +19,7 @@ import ReoPage from "./pages/ReoPage";
 import HavellsPage from "./pages/HavellsPage";
 import NestleProferPage from "./pages/NestleProferPage";
 import PolycabPage from "./pages/Polycab";
+import LicensePage from "./pages/LicensePage";
 import TitanWorldPage from "./pages/TitanWorldPage";
 import HeliosPage from "./pages/HeliosPage";
 import FastrackStorePage from "./pages/FastrackStorePage";
@@ -36,15 +38,17 @@ const App = () => (
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/directors" element={<DirectorPage/>}/>
           <Route path="/brands/titan" element={<TitanPage />} />
           <Route path="/brands/mia" element={<MiaPage />} />
           <Route path="/brands/fastrack" element={<FastrackPage />} />
           <Route path="/brands/sonata" element={<SonataPage />} />
           <Route path="/brands/nestle" element={<NestlePage />} />
           <Route path="/brands/reo" element={<ReoPage />} />
-          <Route path="/brands/havells" element={<HavellsPage />} />
+          <Route path="/brands/havells" element={<HavellsPage />} />  
           <Route path="/brands/nestle-profer" element={<NestleProferPage />} />
           <Route path="/brands/Polycab" element={<PolycabPage />} />
+          <Route path ="/brands/License" element = {<LicensePage />} />
           <Route path="/brands/titan-world" element={<TitanWorldPage />} />
           <Route path="/brands/helios" element={<HeliosPage />} />
           <Route path="/brands/fastrack-store" element={<FastrackStorePage />} />

@@ -23,10 +23,7 @@ const FastrackPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We have been the distributors of Fastrack since 1995. We are
-            covering Gwalior city and Gwalior division to service multi-brand
-            outlets, and every district is covered : Shivpuri, Datia, Bhind,
-            Morena, Chhatarpur and Guna. Covering 50 dealers.
+            We have been the ditributors of Fastrack since 1999, providing services to multi-brand outlets in the Gwalior division. Over 50 dealers are being covered in districts like Shivpuri, Datia, Bhind, Morena, Chattarpur and Guna.  
           </p>
         </div>
 

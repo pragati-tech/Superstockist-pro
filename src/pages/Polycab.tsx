@@ -11,10 +11,10 @@ import Catalogue1img from "../assets/brands/Polycab_Catalogue1.jpg";
 import Catalogue2img from "../assets/brands/Polycab_Catalogue.jpg";
 import Catalogue3img from "../assets/brands/Polycab_Pricelist.jpg";
 import Catalogue4img from "../assets/brands/Polycab_wires.jpg";
-import Catalogue1 from "../assets/brands/Polycab_Catalogue1.pdf";
-import Catalogue2 from "../assets/brands/Polycab_Fan_Catalogue.pdf";
-import Catalogue3 from "../assets/brands/Polycab_Pricelist.pdf"
-import Catalogue4 from "../assets/brands/Polycab_wires.pdf"
+import Catalogue1 from "../assets/pdfs/Polycab_Catalogue1.pdf";
+import Catalogue2 from "../assets/pdfs/Polycab_Fan_Catalogue.pdf";
+import Catalogue3 from "../assets/pdfs/Polycab_Pricelist.pdf"
+import Catalogue4 from "../assets/pdfs/Polycab_wires.pdf"
 
 const PolycabPage = () => {
   return (
@@ -30,7 +30,7 @@ const PolycabPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We started Polycab lighting distributor and superstockist in 2024. We cover Gwalior city and the Gwalior division.
+            Since 2024, we have been the distributor and super-stockist for Polycab lightings, serving the Gwalior division.
           </p>
         </div>
 <div className="flex justify-between gap-5 mb-10">

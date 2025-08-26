@@ -32,7 +32,13 @@ const Navigation = () => {
             <span className="text-xl font-bold text-gray-900">SuperStock Pro</span>
           </Link>
 
+          
           <div className="flex items-center space-x-6">
+
+            <a href="/directors">
+            <h1 className="text-gray-900 font-medium">About Directors</h1>
+            </a>
+
             {/* Brands Dropdown */}
             <div className="relative" ref={dropdownRef}>
               <button

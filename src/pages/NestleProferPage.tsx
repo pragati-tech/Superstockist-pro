@@ -8,7 +8,7 @@ import { ArrowLeft, ChefHat, Building, Award } from "lucide-react";
 import Nestleimg from "../assets/brands/nestle_profer.png"
 import { ArrowRight } from "lucide-react";
 import Catalogueimg from "../assets/brands/Nestle_Catalogue.jpg"
-import Catalogue1 from "../assets/brands/Nestle_Catalogue.pdf"
+import Catalogue1 from "../assets/pdfs/Nestle_Catalogue.pdf"
 
 const NestleProferPage = () => {
   return (
@@ -24,7 +24,7 @@ const NestleProferPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-5xl mx-auto">
-            We have been a Nestle Professional distributor since 2018. We provide coffee/vending machines and services in this area. We also supply them to restaurants, hotels and colleges, and have Nescafe kiosks with us.
+            We have been a Nestle Professional distributor since 2018, providing coffee vending machines and services to hotels, restaurants and colleges in Gwalior region. We have also established kiosks at multiple locations within the area.
           </p>
         </div>
 

@@ -30,7 +30,7 @@ const MiaPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The showroom was started in 2024.
+           We opened Gwalior's first exclusive Mia showroom in 2024, offering affordable, elegant, and modern jewellery.
           </p>
         </div>
 

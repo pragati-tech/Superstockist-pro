@@ -35,7 +35,7 @@ const TitanWorldPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We currently have 2 Titan World showrooms. The first showroom opened in 2008, and the second opened in 2018.
+            We currently operate two Titan World showrooms in Gwalior. We introduced Gwalior's first exclusive Titan showroom in 2008, followed by the opening of the second in 2018.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ const TitanWorldPage = () => {
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store1a, Store1b, Store1c, Store1d, Store1e, Store1f, Store1g]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Store 1</span>
+              <span className="text-sm font-medium text-gray-700">DB Mall Store</span>
             </div>
 
           </div>
@@ -53,7 +53,7 @@ const TitanWorldPage = () => {
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store2a, Store2b, Store2c, Store2d, Store2e]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Store 2</span>
+              <span className="text-sm font-medium text-gray-700">Chetakpuri Store</span>
             </div>
           </div>
         </div>

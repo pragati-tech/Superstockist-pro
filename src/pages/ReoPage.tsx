@@ -3,12 +3,12 @@ import Footer from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
 import Reoimg from "../assets/brands/Reo.png";
 // import ReoCardImage from "../assets/brands/ReoCard.png";
-import Catalogue1 from "../assets/brands/Reo_Catalogue1.pdf"
-import Catalogue2 from "../assets/brands/Reo_Catalogue2.pdf"
+import Catalogue1 from "../assets/pdfs/Reo_Catalogue1.pdf"
+import Catalogue2 from "../assets/pdfs/Reo_Catalogue2.pdf"
 import Catalogue1img from "../assets/brands/Reo_Catalogue1.jpg"
 import Catalogue2img from "../assets/brands/Reo_Catalogue2.jpg"
 
-const ReoPage = () => {
+const ReoPage = () => { 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
       <Navigation />
@@ -22,8 +22,7 @@ const ReoPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We have been distributors of Havells Reo since 2014. In this, we
-            cover wires, MCBs, switches and fans.
+            Since 2014, we have been distributors of Havells Reo, which includes a wide range of wires, MCBs, switches and fans.
           </p>
         </div>
 

@@ -31,7 +31,7 @@ const FastrackStorePage = () => {
             loading="lazy"
           />
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              We have been the ditributors of Fastrack store since 1995. We are covering Gwalior city and Gwalior division to service multi-brand outlets, and every district is covered : Shivpuri, Datia, Bhind, Morena, Chhatarpur and Guna. Covering 50 dealers.
+              We are currently operating 2 stores of Fastrack, the one opened in 2018, offering watches, sunglasses, bags, and other accessories.
             </p>
         </div>
 
@@ -41,7 +41,7 @@ const FastrackStorePage = () => {
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store1a, Store1b, Store1c]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Store 1</span>
+              <span className="text-sm font-medium text-gray-700">DB Mall Store</span>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const FastrackStorePage = () => {
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store2a, Store2b]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Store 2</span>
+              <span className="text-sm font-medium text-gray-700">Chetakpuri Store</span>
             </div>
           </div>
         </div>

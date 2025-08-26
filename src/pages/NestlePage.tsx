@@ -25,8 +25,8 @@ const NestlePage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-5xl mx-auto">
-            We have been Nestle's distributor since 1985. Covering Gwalior city and we are connected to almost 1500 retailers.
-           <br />Product : Maggie, KitKat, Coffee
+            We have been Nestle's distributor since 1985, covering Gwalior city and over 1500 retailers.
+           <br />Product : Maggie, KitKat, Nescafe
           </p>
         </div>
 

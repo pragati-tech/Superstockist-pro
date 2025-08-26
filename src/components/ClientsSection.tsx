@@ -12,12 +12,7 @@ import TitanImg from '../assets/brands/Titan.png';
 import SonataImg from '../assets/brands/Sonata.png';
 import FastrackImg from '../assets/brands/Fastrack.png';
 import PolycabImg from '../assets/brands/Polycab.png';
-
-// Licensed Stores
-import AnneKleinimg from "../assets/brands/Anne_Klein.png"
-import TommyHilfigherimg from '../assets/brands/Tommy_Hilfigher.png'
-import KennethKoleimg from "../assets/brands/kenneth_Cole.png"
-import Policeimg from "../assets/brands/Police.png"
+import Licensedimg from '../assets/brands/Licensed_Brands.png'
 
 // Exclusive Stores
 import TitanWorldImg from '../assets/brands/titan_world.png';
@@ -50,20 +45,9 @@ const ClientsSection = () => {
         { name: "Sonata", img: SonataImg, description: "Since 1998", path: "/brands/sonata" },
         { name: "Fastrack", img: FastrackImg, description: "Since 1999", path: "/brands/fastrack" },
         { name: "Polycab", img: PolycabImg, description: "Since 2025", path: "/brands/polycab" },
+        { name: "Licensed Brands", img: Licensedimg, description: "Since 2025", path: "/brands/License" }
       ]
-    },
-    {
-      title: "Licensed Stores",
-      gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
-      bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
-      shadowColor: "shadow-blue-500/20",
-      brands: [
-        { name: "Anne Klein", img: AnneKleinimg, description: "Since 1985", path: "/brands/nestle" },
-        { name: "Tommy Hilfigher", img: TommyHilfigherimg, description: "Since 2014", path: "/brands/reo" },
-        { name: "Kenneth Cole", img: KennethKoleimg, description: "Since 2014", path: "/brands/havells" },
-        { name: "Police", img: Policeimg, description: "Since 2018", path: "/brands/nestle-profer" },
-      ]
-    },
+    },  
     {
       title: "Exclusive Stores",
       gradient: "from-[#112438] via-[#0e1d2f] to-[#073f67]",
@@ -104,14 +88,14 @@ const ClientsSection = () => {
 
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-3 bg-gradient-to-r from-business-100/80 to-business-200/80 backdrop-blur-sm px-6 py-3 rounded-full text-business-700 text-sm font-medium mb-4 shadow-lg border border-business-200/30">
             <Sparkles className="w-5 h-4 animate-spin" style={{ animationDuration: '3s' }} />
             <span className="font-semibold">Premium Partnerships</span>
             <Star className="w-4 h-4" />
           </div>
       <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight">
-                <span
+              <span
           className="inline-block transition-transform duration-300"
           style={{ color: "rgba(14, 45, 80, 1)" }}
         >
@@ -124,9 +108,8 @@ const ClientsSection = () => {
             </span>
           </span>
         </h2>
-        <p className="text-xl md:text-xl max-w-5xl mx-auto leading-relaxed font-500" style={{color: "rgba(19, 44, 73, 0.63)"  }}>
-          We serve as authorized partners across three key business verticals, delivering excellence 
-          in distribution and retail with <span className="font-semibold text-business-700"style={{color: "rgba(12, 73, 143, 1)"}}>unmatched commitment</span> to quality and service.
+        <p className="text-xl md:text-xl max-w-4xl mx-auto leading-relaxed font-500" style={{color: "rgba(19, 44, 73, 0.63)"  }}>
+          From premium distribution partnerships to exclusive retail experiences, we deliver comprehensive solutions that ensure brand excellence and customer satisfaction across every touchpoint in the value chain.
         </p>
 
 </div>
@@ -214,12 +197,7 @@ const ClientsSection = () => {
                 Comprehensive Solutions Across 
                 <span className="block text-business-600 mt-2">Diverse Market Segments</span>
               </h3>
-              <p className="text-business-700 text-xl max-w-5xl mx-auto leading-relaxed mb-12 font-300">
-                From premium distribution partnerships to exclusive retail experiences, we deliver 
-                comprehensive solutions that ensure brand excellence and customer satisfaction across 
-                every touchpoint in the value chain.
-              </p>
-
+             
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
                 {[
                   { number: "15+", label: "Premium Brands" },
@@ -239,12 +217,11 @@ const ClientsSection = () => {
                     <div className="text-business-700 font-semibold text-lg tracking-wide"
                     style={{ color: "rgba(14, 45, 80, 1)" }}
                     >
-                      {stat.label}
+                    {stat.label}
                     </div>
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
         </div>
