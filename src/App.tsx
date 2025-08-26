@@ -8,7 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Loader from "@/components/loader";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import DirectorPage from "./components/DirectorSection";
+// import DirectorPage from "./components/DirectorSection";
 import NotFound from "./pages/NotFound";
 import TitanPage from "./pages/TitanPage";
 import MiaPage from "./pages/MiaPage";
@@ -38,7 +38,7 @@ const App = () => (
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/directors" element={<DirectorPage/>}/>
+          {/* <Route path="/directors" element={<DirectorPage/>}/> */}
           <Route path="/brands/titan" element={<TitanPage />} />
           <Route path="/brands/mia" element={<MiaPage />} />
           <Route path="/brands/fastrack" element={<FastrackPage />} />
