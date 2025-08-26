@@ -47,7 +47,7 @@ const NescafeKiosksPage = () => {
           </div>
 
   
-          {/* Card 2 - Duplicate for now */}
+          {/* Card 2 */}
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store2a, Store2b]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
@@ -65,13 +65,13 @@ const NescafeKiosksPage = () => {
             </div>
           </div>
 
-          {/* Card 4 */}
+          {/* Card 4 Need to change images*/}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store3a, Store3b, Store3c]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">IIITM University Morena Rd, IIITM Campus, Gwalior , Madhya Pradesh</span><br/>
+              <span className="text-sm font-medium text-gray-700">5566+34J, Plot No.1, Green South Avenue ShivpuriLink Road, Gwalior, Madhya Pradesh</span><br/>
               <span className="text-sm font-medium text-gray-700">474015</span>
-            </div>
+            </div>  
           </div>  
 
           {/* Repeat above block for more cards */}
