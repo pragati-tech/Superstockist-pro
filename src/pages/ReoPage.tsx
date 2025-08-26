@@ -24,6 +24,7 @@ const ReoPage = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Since 2014, we have been distributors of Havells Reo, which includes a wide range of wires, MCBs, switches and fans.
           </p>
+            <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-8889513888, 9111004059</p>
         </div>
 
         {/* Cards Grid */}

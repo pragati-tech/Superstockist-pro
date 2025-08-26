@@ -19,7 +19,7 @@ const TitanPage = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <img
             src= {Titanimg}
             alt =""
@@ -31,6 +31,7 @@ const TitanPage = () => {
             <br /> 
             <b>Brand : </b>Titan, Titan clocks, Zoop
           </p>
+          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004080</p>
         </div>
 
         <div className="flex justify-around gap-5 mb-10">

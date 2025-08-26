@@ -30,6 +30,7 @@ const HavellsPage = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Since 2014, we have managed the distribution of Havells appliances in Gwalior city and upcountry towns, reaching a network of over 200 retailers.
           </p>
+          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111005823, 9111004059</p>
         </div>
 
         <div className="flex justify-around gap-8 mb-10">

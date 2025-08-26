@@ -26,6 +26,7 @@ const NestleProferPage = () => {
           <p className="text-xl text-gray-600 max-w-5xl mx-auto">
             We have been a Nestle Professional distributor since 2018, providing coffee vending machines and services to hotels, restaurants and colleges in Gwalior region. We have also established kiosks at multiple locations within the area.
           </p>
+            <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004059, 9111005821</p>
         </div>
 
         <div className="flex justify-around gap-8 mb-10">

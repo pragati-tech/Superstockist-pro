@@ -28,6 +28,7 @@ const NestlePage = () => {
             We have been Nestle's distributor since 1985, covering Gwalior city and over 1500 retailers.
            <br />Product : Maggie, KitKat, Nescafe
           </p>
+          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111005821, 9111004059</p>
         </div>
 
         <div className="flex justify-around gap-8 mb-10">

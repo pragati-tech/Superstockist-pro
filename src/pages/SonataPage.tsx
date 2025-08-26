@@ -28,6 +28,7 @@ const SonataPage = () => {
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             We have been the ditributors of Sonata since 1998, providing services to multi-brand outlets in the Gwalior division. Over 50 dealers are being covered in districts like Shivpuri, Datia, Bhind, Morena, Chattarpur and Guna.  
           </p>
+          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004080</p>
         </div>
 
         <div className="flex justify-around gap-5 mb-10">
