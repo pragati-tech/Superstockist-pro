@@ -35,7 +35,7 @@ const Navigation = () => {
           
           <div className="flex items-center space-x-6">
 
-            <a href="./directors">
+            <a href="/directors">
             <h1 className="text-gray-900 font-medium">About Directors</h1>
             </a>
 

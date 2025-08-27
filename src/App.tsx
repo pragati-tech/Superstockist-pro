@@ -8,7 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Loader from "@/components/loader";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import DirectorPage from "./components/DirectorsPage";
+import DirectorPage from "./pages/DirectorsPage";
 import NotFound from "./pages/NotFound";
 import TitanPage from "./pages/TitanPage";
 import MiaPage from "./pages/MiaPage";
