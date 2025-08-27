@@ -26,9 +26,9 @@ const LicensePage = () => {
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+          {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             We started the Nescafe Kiosks in 2023, operating within the universities and hospitals in Gwalior. We now manage around 5 kisoks across the city.
-          </p>
+          </p> */}
         </div>
 
           <div className="flex justify-between mb-10">
@@ -114,14 +114,6 @@ const LicensePage = () => {
 
           {/* Repeat above block for more cards */}
         </div>   
-       
-           
-        <div style={{width:"max-content", margin:"auto"}} className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow group-hover:translate-y-0 transition-all duration-500">
-         <a style={{display:"flex", justifyContent:"space-between", alignItems:"center", gap:"4px"}} target="_blank" href="">
-            <span className="text-s font-medium">Titan Watch Care HotSell</span>
-             <ArrowRight  className="w-4 h-4" />
-            </a> 
-        </div>
       </div>
     <footer className="bg-gray-900 text-white py-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

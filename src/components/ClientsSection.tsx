@@ -59,6 +59,7 @@ const ClientsSection = () => {
         { name: "Fastrack Store", img: FastrackStoreImg, description: "Since 2018", path: "/brands/fastrack-store" },
         { name: "Nescafe Kiosks", img: NescafeKiosksImg, description: "Since 2023", path: "/brands/nescafe-kiosks" },
         { name: "Mia by Tanishq", img: MiaImg, description: "Since 2024", path: "/brands/mia" },
+        { name: "Titan Care", img:Licensedimg, description: "Since 2024", path: "/brands/mia"}
       ]
     }
   ];
