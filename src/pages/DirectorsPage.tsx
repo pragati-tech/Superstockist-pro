@@ -5,7 +5,7 @@ const DirectorPage = () => {
   const directors = [
     {
       name: "Mr. Anuj Khandelwal",
-      photo: "/images/director1.jpg",
+      photo: "",
       message:
         "As a Director at Krishna Tradlinks Pvt. Ltd. and Khandelwal Enterprises. With over 40 years of extensive experience in the distribution and retail across diverse industries, his expertise spans Watches, Jewellery, Lighting, Appliances, and FMCG.
         Since 1985, he has been the distributor for Nestle in Gwalior. He also has led the expansion of Titan, Sonata and Fastrack in the Gwalior region through distribution networks and exclusive retail stores. 
@@ -14,7 +14,7 @@ const DirectorPage = () => {
     },
     {
       name: "Ms. Seema Khandelwal",
-      photo: "/images/director2.jpg",
+      photo: "",
       message:
         "She is the Director at Krishna Tradlinks Pvt. Ltd. and Khandelwal Enterprises. With over 17 years of experience in the retail watch business, she has played a key role in bringing leading watch brands to Gwalior.
         In 2008, she led the launch of Gwalior’s first exclusive World of Titan store, introducing a modern watch retail experience. Ten years later, in 2018, she played a vital role in the opening of the city's first Helios store, offering customers an extensive collection of luxury multi-brand watches. Building on this success, she opened the Fastrack store in 2019, catering specifically to the youth segment.
