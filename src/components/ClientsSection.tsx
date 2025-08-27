@@ -109,7 +109,8 @@ const ClientsSection = () => {
           </span>
         </h2>
         <p className="text-xl md:text-xl max-w-4xl mx-auto leading-relaxed font-500" style={{color: "rgba(19, 44, 73, 0.63)"  }}>
-          From premium distribution partnerships to exclusive retail experiences, we deliver comprehensive solutions that ensure brand excellence and customer satisfaction across every touchpoint in the value chain.
+          We serve as authorized partners across three key business verticals, delivering excellence 
+          in distribution and retail with <span className="font-semibold text-business-700"style={{color: "rgba(12, 73, 143, 1)"}}>unmatched commitment</span> to quality and service.
         </p>
 
 </div>
