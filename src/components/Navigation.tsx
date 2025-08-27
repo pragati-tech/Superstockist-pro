@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";    
+import DirectorsPage from "../pages/DirectorsPage"
 
 const Navigation = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -35,9 +36,9 @@ const Navigation = () => {
           
           <div className="flex items-center space-x-6">
 
-            <a href="/directors">
+            <Link to="/directors">
             <h1 className="text-gray-900 font-medium">About Directors</h1>
-            </a>
+            </Link>
 
             {/* Brands Dropdown */}
             <div className="relative" ref={dropdownRef}>
