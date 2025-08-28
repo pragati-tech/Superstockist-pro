@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Clock, Zap, Shield } from "lucide-react";
 import Titanimg from "../assets/brands/Titan.png"
 import { ArrowRight } from "lucide-react";
-import Catalogue1 from "../assets/pdfs/Havells_Catalogue1.pdf"
+import Catalogue1 from "../assets/pdfs/Titan_Catalogue.pdf"
 import catalogue1img from "../assets/brands/Havells_Catalogue1.jpg"
-import Catalogue2 from "../assets/pdfs/Havells_Catalogue2.pdf"
+import Catalogue2 from "../assets/pdfs/Titan_Catalogue2.pdf"
 import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg"
 
 const TitanPage = () => {

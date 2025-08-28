@@ -12,6 +12,7 @@ import AnneKleinimg from "../assets/brands/Anne_Klein.png"
 import Tommyimg from "../assets/brands/Tommy_Hilfiger.png"
 import Kennethimg from "../assets/brands/kenneth_Cole.png"
 import Policeimg from "../assets/brands/Police.png"
+import KC_Catalogue from "../assets/pdfs/Kenneth_Cole_Catalogue.pdf"
 
 const LicensePage = () => {
   return (
@@ -26,9 +27,9 @@ const LicensePage = () => {
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We started the Nescafe Kiosks in 2023, operating within the universities and hospitals in Gwalior. We now manage around 5 kisoks across the city.
-          </p> */}
+            {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              We started the Nescafe Kiosks in 2023, operating within the universities and hospitals in Gwalior. We now manage around 5 kisoks across the city.
+            </p> */}
         </div>
 
           <div className="flex justify-between mb-10">
@@ -74,7 +75,7 @@ const LicensePage = () => {
     </a>
 
           {/* Card 3 */}
-          <a target="_blank" href="#">
+          <a target="_blank" href={KC_Catalogue}>
         <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div

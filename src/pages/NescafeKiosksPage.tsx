@@ -16,6 +16,8 @@ import Store2b from "../assets/brands/Nescafe_Store2b.jpeg"
 import Store3a from "../assets/brands/Nescafe_Store3a.jpeg"
 import Store3b from "../assets/brands/Nescafe_Store3b.jpeg"
 import Store3c from "../assets/brands/Nescafe_Store3c.jpeg"
+import Store4a from "../assets/brands/Nescafe_Store4a.jpeg"
+import Store4b from "../assets/brands/Nescafe_Store4b.jpeg"
 
 const NescafeKiosksPage = () => {
   return (
@@ -67,7 +69,7 @@ const NescafeKiosksPage = () => {
 
           {/* Card 4 Need to change images*/}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store3a, Store3b, Store3c]} />
+            <ImageCarousel images={[Store4a, Store4b]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">5566+34J, Plot No.1, Green South Avenue ShivpuriLink Road, Gwalior, Madhya Pradesh</span><br/>
               <span className="text-sm font-medium text-gray-700">474015</span>

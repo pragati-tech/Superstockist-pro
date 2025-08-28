@@ -20,6 +20,7 @@ import HeliosImg from '../assets/brands/Helios.png';
 import FastrackStoreImg from '../assets/brands/Fastrack_Store.png';
 import NescafeKiosksImg from '../assets/brands/Nescafe.png';
 import MiaImg from '../assets/brands/mia.png';
+import TitanCare from "../assets/brands/Titan_Care.png"
 
 const ClientsSection = () => {
   const businessCategories = [
@@ -59,7 +60,7 @@ const ClientsSection = () => {
         { name: "Fastrack Store", img: FastrackStoreImg, description: "Since 2018", path: "/brands/fastrack-store" },
         { name: "Nescafe Kiosks", img: NescafeKiosksImg, description: "Since 2023", path: "/brands/nescafe-kiosks" },
         { name: "Mia by Tanishq", img: MiaImg, description: "Since 2024", path: "/brands/mia" },
-        { name: "Titan Care", img:Licensedimg, description: "Since 2024", path: "/brands/mia"}
+        { name: "Titan Care", img:TitanCare, description: "Since 2024", path: "/brands/mia"}
       ]
     }
   ];

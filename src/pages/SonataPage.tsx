@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Clock, Star, Users } from "lucide-react";
 import Sonataimg from "../assets/brands/Sonata.png"
 import { ArrowRight } from "lucide-react";
-import Catalogue1 from "../assets/pdfs/Havells_Catalogue1.pdf"
-import Catalogue1img from "../assets/brands/Havells_Catalogue1.jpg"
+import Catalogue1 from "../assets/pdfs/Sonata_Catalogue1.pdf"
+import Catalogue1img from "../assets/brands/Sonata_Catalogue1img.jpg"
 import Catalogue2 from "../assets/pdfs/Havells_Catalogue2.pdf"
 import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg"
 
@@ -34,10 +34,10 @@ const SonataPage = () => {
         <div className="flex justify-around gap-5 mb-10">
           {/* Card 1 */}
           <a target="_blank" href={Catalogue1}>
-        <div className="group relative w-[350px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
-    <div
-        className="w-[350px] h-[350px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+    <div  
+        className="w-[350px] h-[400px] bg-center bg-right bg-cover transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue1img})` }}
       >
       </div>
@@ -45,7 +45,7 @@ const SonataPage = () => {
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">LED Catalogue</span>
+        <span className="text-xs font-medium">SF by Sonata Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
@@ -53,16 +53,16 @@ const SonataPage = () => {
 </a>
           {/* Card 2 - Duplicate for now */}
           <a target="_blank" href={Catalogue2}>
-   <div className="group relative w-[350px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+   <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[350px] h-[350px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue2img})` }}
       > 
       </div>
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Fan Catalogue</span>
+        <span className="text-xs font-medium">Sonata E- Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>

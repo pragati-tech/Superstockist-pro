@@ -8,15 +8,13 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
 import Heliosimg from "../assets/brands/Helios.png"
 import { ArrowRight } from "lucide-react";
-import Store1 from "../assets/brands/Helios_Store1.jpeg"
-import Store2 from "../assets/brands/Helios_Store2.jpeg"
-import Store3 from "../assets/brands/Helios_Store3.jpeg"
-import Store4 from "../assets/brands/Helios_Store4.jpeg"
-import Store5 from "../assets/brands/Helios_Store5.jpeg"
-import Store6 from "../assets/brands/Helios_Store6.jpeg"
-import Store7 from "../assets/brands/Helios_Store7.jpeg"
-import Store8 from "../assets/brands/Helios_Store8.jpeg"
-import Store9 from "../assets/brands/Helios_Store9.jpeg"
+import Store1 from "../assets/brands/Helios1.jpeg"
+import Store2 from "../assets/brands/Helios2.jpeg"
+import Store3 from "../assets/brands/Helios3.jpeg"
+import Store4 from "../assets/brands/Helios4.jpeg"
+import Store5 from "../assets/brands/Helios5.jpeg"
+import Store6 from "../assets/brands/Helios6.jpeg"
+import Store7 from "../assets/brands/Helios7.jpeg"
 
 const HeliosPage = () => {  
   return (
@@ -40,7 +38,7 @@ const HeliosPage = () => {
        <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1, Store2, Store3, Store4, Store5, Store6, Store7, Store8, Store9]} />
+            <ImageCarousel images={[Store2, Store1, Store3, Store4, Store5, Store6, Store7]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
               <span className="text-sm font-medium text-gray-700">DB Mall Store</span>
             </div>

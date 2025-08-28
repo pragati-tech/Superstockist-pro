@@ -2,12 +2,9 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useState, useEffect } from "react";
 import Fastrackimg from "../assets/brands/Fastrack.png";
-// import Store1 from "../assets/brands/Titan_world_fastrack.jpg";
-// import Store1b from "../assets/brands/Titan_world_fastrack2.jpg";
-// import Store1c from "../assets/brands/Havells_Catalogue1.jpg" 
-// import Store2 from "../assets/brands/Titan_world_fastrack2.jpg";
-// import Store2b from "../assets/brands/Titan_world_fastrack.jpg"; 
+import Fastrack_Catalogue from "../assets/pdfs/Fastrack_Catalogue1.pdf"
 import ImageCarousel from "@/components/ImageCarousal";
+import { ArrowRight } from "lucide-react";
 
 const FastrackPage = () => {
   return (
@@ -28,15 +25,27 @@ const FastrackPage = () => {
           <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004080</p>
         </div>
 
-        <div className="flex justify-around gap-8 mb-10">
+                <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
-          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            {/* <ImageCarousel images={[Store1, Store1b, Store1c]} /> */}
-            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Visit Store</span>
-            </div>
-          </div>
-        </div>
+          <a target="_blank" href={Fastrack_Catalogue}>
+        <div className="group relative w-[380px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div
+        className="w-[380px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Fastrackimg})` }}
+      >
+      </div>
+
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center justify-between text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Analog Watches Catalogue</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+</a>
+</div>
       </div>
       {/* Footer */}
     <footer className="bg-gray-900 text-white py-5">
