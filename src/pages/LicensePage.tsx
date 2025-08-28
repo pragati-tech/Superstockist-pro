@@ -36,10 +36,10 @@ const LicensePage = () => {
           {/* Card 1 */}
          
          <a target="_blank" href="#">
-        <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
-            className="w-[300px ] h-[350px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+            className="w-[300px ] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
             style={{ backgroundImage: `url(${AnneKleinimg})` }}
         >
         </div>
@@ -56,10 +56,10 @@ const LicensePage = () => {
   
           {/* Card 2 - Duplicate for now */}
            <a target="_blank" href="#">
-        <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
-            className="w-[300px] h-[350px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+            className="w-[300px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
             style={{ backgroundImage: `url(${Tommyimg})` }}
         >
         </div>
@@ -76,10 +76,10 @@ const LicensePage = () => {
 
           {/* Card 3 */}
           <a target="_blank" href={KC_Catalogue}>
-        <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
-            className="w-[300px] h-[350px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+            className="w-[280px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
             style={{ backgroundImage: `url(${Kennethimg})` }}
         >
         </div>
@@ -95,10 +95,10 @@ const LicensePage = () => {
     </a>
           {/* Card 4 */}
           <a target="_blank" href="#">
-        <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
-            className="w-[300px] h-[350px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+            className="w-[300px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
             style={{ backgroundImage: `url(${Policeimg})` }}
         >
         </div>
