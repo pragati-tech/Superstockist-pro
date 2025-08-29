@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Clock, Star, Users } from "lucide-react";
-import Sonataimg from "../assets/brands/Sonata.png"
+import AnneKleinimg from "../assets/brands/Anne_KleinPageimg.png"
 import { ArrowRight } from "lucide-react";
-import Catalogue1 from "../assets/pdfs/Sonata_Catalogue1.pdf"
-import Catalogue1img from "../assets/brands/Sonata_Catalogue1img.jpg"
-import Catalogue2 from "../assets/pdfs/Havells_Catalogue2.pdf"
-import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg"
-import Catalogue3 from "../assets/pdfs/Sonata_Catalogue3.pdf"
-import Catalogue3img from "../assets/brands/Sonata_Catalogue3img.jpg"
+import Catalogue1 from "../assets/pdfs/AK_Catalogue1.pdf"
+import Catalogue1img from "../assets/brands/AK_Catalogue1img.jpg"
+import Catalogue2 from "../assets/pdfs/AK_Catalogue2.pdf"
+import Catalogue2img from "../assets/brands/AK_Catalogue2img.jpg"
+import Catalogue3 from "../assets/pdfs/AK_Catalogue3.pdf"
+import Catalogue3img from "../assets/brands/AK_Catalogue3img.jpg"
 
-const SonataPage = () => {
+const AnneKleinPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
       <Navigation />
@@ -22,15 +22,15 @@ const SonataPage = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-5">
           <img
-            src= {Sonataimg}
+            src= {AnneKleinimg}
             alt =""
             className="h-20 mx-auto bject-contain drop-shadow-lg mb-2"
             loading="lazy"
           />
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+          {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             We have been the ditributors of Sonata since 1998, providing services to multi-brand outlets in the Gwalior division. Over 50 dealers are being covered in districts like Shivpuri, Datia, Bhind, Morena, Chattarpur and Guna.  
           </p>
-          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004080</p>
+          <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111004080</p> */}
         </div>
 
         <div className="flex justify-around gap-5 mb-10">
@@ -39,7 +39,7 @@ const SonataPage = () => {
         <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div  
-        className="w-[350px] h-[400px] bg-center bg-right bg-cover transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-center bg-cover transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue1img})` }}
       >
       </div>
@@ -47,7 +47,7 @@ const SonataPage = () => {
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">SF by Sonata Catalogue</span>
+        <span className="text-xs font-medium">Summer Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
@@ -57,14 +57,14 @@ const SonataPage = () => {
           <a target="_blank" href={Catalogue2}>
    <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[350px] h-[400px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue2img})` }}
       > 
       </div>
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Sonata E- Catalogue</span>
+        <span className="text-xs font-medium">Oct'24 Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
@@ -75,14 +75,14 @@ const SonataPage = () => {
        <a target="_blank" href={Catalogue3}>
    <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[350px] h-[400px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-left bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue3img})` }}
       > 
       </div>
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Poze Sonata Catalogue</span>
+        <span className="text-xs font-medium">Feb'25 Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
@@ -134,4 +134,4 @@ const SonataPage = () => {
   );
 };
 
-export default SonataPage;
+export default AnneKleinPage;

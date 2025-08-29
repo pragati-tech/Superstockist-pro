@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
 import Heliosimg from "../assets/brands/Helios.png"
 import { ArrowRight } from "lucide-react";
+import img from "../assets/brands/Heliosimg.jpg";
 import Store1 from "../assets/brands/Helios1.jpeg"
 import Store2 from "../assets/brands/Helios2.jpeg"
 import Store3 from "../assets/brands/Helios3.jpeg"
@@ -35,8 +36,10 @@ const HeliosPage = () => {
           </p>
         </div>
 
-       <div className="flex justify-around gap-8 mb-10">
+       <div className="flex justify-around gap-8 mb-10">  
           {/* Card 1 */}
+          <div className="w-[700px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 bg-cover bg-center"style={{ backgroundImage: `url(${img})` }}>
+</div>
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store2, Store1, Store3, Store4, Store5, Store6, Store7]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">

@@ -12,7 +12,8 @@ import AnneKleinimg from "../assets/brands/Anne_Klein.png"
 import Tommyimg from "../assets/brands/Tommy_Hilfiger.png"
 import Kennethimg from "../assets/brands/kenneth_Cole.png"
 import Policeimg from "../assets/brands/Police.png"
-import KC_Catalogue from "../assets/pdfs/Kenneth_Cole_Catalogue.pdf"
+import KC_Catalogue from "../assets/pdfs/KC_Catalogue1.pdf"
+import AnneKleinPage from "./AnneKleinPage";
 
 const LicensePage = () => {
   return (
@@ -35,7 +36,7 @@ const LicensePage = () => {
           <div className="flex justify-between mb-10">
           {/* Card 1 */}
          
-         <a target="_blank" href="#">
+         <a href="/LicenseBrands/AnneKleinPage">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -47,7 +48,7 @@ const LicensePage = () => {
 
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
         <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Anne Klein PDF</span>
+            <span className="text-xs font-medium">Anne Klein</span>
             <ArrowRight className="w-3 h-3" />
         </div>
         </div>
@@ -55,7 +56,7 @@ const LicensePage = () => {
     </a>
   
           {/* Card 2 - Duplicate for now */}
-           <a target="_blank" href="#">
+           <a href="/LicenseBrands/TommyHilfigerPage">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -67,7 +68,7 @@ const LicensePage = () => {
 
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
         <div className="flex justify-between items-center text-gray-700 bg-white/80 backdrop-blur-sm px-2 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Tommy Hilfiger PDF</span>
+            <span className="text-xs font-medium">Tommy Hilfiger</span>
             <ArrowRight className="w-3 h-3" />
         </div>
         </div>
@@ -75,7 +76,7 @@ const LicensePage = () => {
     </a>
 
           {/* Card 3 */}
-          <a target="_blank" href={KC_Catalogue}>
+          <a href="/LicenseBrands/KennethKolePage">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -87,14 +88,14 @@ const LicensePage = () => {
 
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
         <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Kenneth Cole PDF</span>
+            <span className="text-xs font-medium">Kenneth Cole</span>
             <ArrowRight className="w-3 h-3" />
         </div>
         </div>
     </div>
     </a>
           {/* Card 4 */}
-          <a target="_blank" href="#">
+          <a href="/LicenseBrands/PolicePage">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -106,7 +107,7 @@ const LicensePage = () => {
 
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
         <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Police PDF</span>
+            <span className="text-xs font-medium">Police</span>
             <ArrowRight className="w-3 h-3" />
         </div>
         </div>
