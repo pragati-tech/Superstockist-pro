@@ -98,7 +98,7 @@ const LicensePage = () => {
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
-            className="w-[300px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+            className="w-[320px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
             style={{ backgroundImage: `url(${Policeimg})` }}
         >
         </div>
