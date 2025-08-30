@@ -95,7 +95,7 @@ const LicensePage = () => {
     </div>
     </Link>
           {/* Card 4 */}
-          <a href="#">
+          <Link to="/Licensebrands/Police">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -112,7 +112,7 @@ const LicensePage = () => {
         </div>
         </div>
     </div>
-    </a>
+    </Link>
 
           {/* Repeat above block for more cards */}
         </div>   
