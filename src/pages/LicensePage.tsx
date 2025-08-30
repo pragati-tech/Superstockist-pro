@@ -13,7 +13,7 @@ import Tommyimg from "../assets/brands/Tommy_Hilfiger.png"
 import Kennethimg from "../assets/brands/kenneth_Cole.png"
 import Policeimg from "../assets/brands/Police.png"
 import KC_Catalogue from "../assets/pdfs/KC_Catalogue1.pdf"
-import AnneKleinPage from "./AnneKleinPage";
+// import AnneKleinPage from "./AnneKleinPage";
 
 const LicensePage = () => {
   return (
