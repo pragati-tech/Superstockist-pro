@@ -36,7 +36,7 @@ const LicensePage = () => {
           <div className="flex justify-between mb-10">
           {/* Card 1 */}
          
-         <a href="#">
+         <a href="/LicenseBrands/AnneKlein">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div

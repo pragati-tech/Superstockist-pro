@@ -25,7 +25,7 @@ import HeliosPage from "./pages/HeliosPage";
 import FastrackStorePage from "./pages/FastrackStorePage";
 import NescafeKiosksPage from "./pages/NescafeKiosksPage";
 import TitanCarePage from "./pages/TitanCarePage";
-// import AnneKleinPage from "./pages/AnneKleinPage";
+import AnneKleinPage from "./pages/AnneKleinPage";
 // import THPage from "./pages/THPage";
 // import KCPage from "./pages/KCPage";
 // import PolicePage from "./pages/PolicePage";
@@ -52,7 +52,7 @@ const App = () => (
           <Route path="/brands/nestle-profer" element={<NestleProferPage />} />
           <Route path="/brands/Polycab" element={<PolycabPage />} />
           <Route path="/brands/License" element = {<LicensePage />} />
-          {/* <Route path="/LicenseBrands/AnneKleinPage" element= {<AnneKleinPage />} /> */}
+          <Route path="/LicenseBrands/AnneKlein" element= {<AnneKleinPage />} />
           {/* <Route path="/LicenseBrands/TommyHilfigerPage" element= {<THPage />} />
           <Route path="/LicenseBrands/KennethKolePage" element= {<KCPage />} />
           <Route path="/LicenseBrands/PolicePage" element= {<PolicePage />} /> */}
