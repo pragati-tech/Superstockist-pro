@@ -36,7 +36,7 @@ const LicensePage = () => {
           <div className="flex justify-between mb-10">
           {/* Card 1 */}
          
-         <a href="/LicenseBrands/AnneKleinPage">
+         <a href="#">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -56,7 +56,7 @@ const LicensePage = () => {
     </a>
   
           {/* Card 2 - Duplicate for now */}
-           <a href="/LicenseBrands/TommyHilfigerPage">
+           <a href="#">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -76,7 +76,7 @@ const LicensePage = () => {
     </a>
 
           {/* Card 3 */}
-          <a href="/LicenseBrands/KennethKolePage">
+          <a href="#">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
@@ -95,7 +95,7 @@ const LicensePage = () => {
     </div>
     </a>
           {/* Card 4 */}
-          <a href="/LicenseBrands/PolicePage">
+          <a href="#">
         <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
         <div
