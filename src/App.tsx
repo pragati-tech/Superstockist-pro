@@ -27,7 +27,7 @@ import NescafeKiosksPage from "./pages/NescafeKiosksPage";
 import TitanCarePage from "./pages/TitanCarePage";
 import AnneKleinPage from "./pages/AnneKleinPage";
 import THPage from "./pages/THPage";
-// import KCPage from "./pages/KCPage";
+import KCPage from "./pages/KennethKolePage";
 // import PolicePage from "./pages/PolicePage";
 
 const queryClient = new QueryClient();
@@ -54,7 +54,7 @@ const App = () => (
           <Route path="/brands/License" element = {<LicensePage />} />
           <Route path="/Licensebrands/AnneKlein" element= {<AnneKleinPage />} />
           <Route path="/Licensebrands/Tommy-Hilfiger" element= {<THPage />} />
-          {/* <Route path="/LicenseBrands/KennethKolePage" element= {<KCPage />} /> */}
+          <Route path="/Licensebrands/Kenneth-Kole" element= {<KCPage />} />
           {/* <Route path="/LicenseBrands/PolicePage" element= {<PolicePage />} /> */}
           <Route path="/brands/titan-world" element={<TitanWorldPage />} />
           <Route path="/brands/helios" element={<HeliosPage />} />
