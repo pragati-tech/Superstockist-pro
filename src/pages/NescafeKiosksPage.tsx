@@ -33,7 +33,7 @@ const NescafeKiosksPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            We started the Nescafe Kiosks in 2023, operating within the universities and hospitals in Gwalior. We now manage around 5 kisoks across the city.
+            We started the Nescafe Kiosks in 2023, operating within the universities and hospitals in Gwalior. We now manage around 5 kiosks across the city.
           </p>
         </div>
 

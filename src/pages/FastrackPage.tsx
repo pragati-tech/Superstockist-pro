@@ -3,8 +3,11 @@ import Footer from "@/components/Footer";
 import { useState, useEffect } from "react";
 import Fastrackimg from "../assets/brands/Fastrack.png";
 import Fastrack_Catalogue from "../assets/pdfs/Fastrack_Catalogue1.pdf"
+import Fastrack_Catalogue1img from "../assets/brands/Fastrack_Catalogue1img.jpg"
 import Fastrack_Catalogue2 from "../assets/pdfs/Fastrack_Catalogue2.pdf"
 import Fastrack_Catalogue2img from "../assets/brands/Fastrack_Catalogue2img.jpg"
+import Fastrack_Catalogue3 from "../assets/pdfs/Fastrack_Catalogue3.pdf";
+import Fastrack_Catalogue3img from "../assets/brands/Fastrack_Catalogue3img.jpg"
 import ImageCarousel from "@/components/ImageCarousal";
 import { ArrowRight } from "lucide-react";
 
@@ -30,18 +33,18 @@ const FastrackPage = () => {
                 <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
           <a target="_blank" href={Fastrack_Catalogue}>
-        <div className="group relative w-[380px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[380px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
-        style={{ backgroundImage: `url(${Fastrackimg})` }}
+        className="w-[350px] h-[400px] bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Fastrack_Catalogue1img})` }}
       >
       </div>
 
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center justify-between text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Analog Watches Catalogue</span>
+        <span className="text-xs font-medium">Analog Watch Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
@@ -49,10 +52,10 @@ const FastrackPage = () => {
 </a>
 {/* Card 2 */}
           <a target="_blank" href={Fastrack_Catalogue2}>
-        <div className="group relative w-[380px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[380px] h-[400px] bg-left bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-left bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Fastrack_Catalogue2img})` }}
       >
       </div>
@@ -61,6 +64,25 @@ const FastrackPage = () => {
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center justify-between text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
         <span className="text-xs font-medium">VYB Catalogue</span>
+        <ArrowRight className="w-3 h-3" />
+      </div>
+    </div>
+  </div>
+</a>
+{/* Card 3 */}
+<a target="_blank" href={Fastrack_Catalogue3}>
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+
+    <div
+        className="w-[350px] h-[320px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Fastrack_Catalogue3img})` }}
+      >
+      </div>
+
+
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+      <div className="flex items-center justify-between text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+        <span className="text-xs font-medium">Smart Watch Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>

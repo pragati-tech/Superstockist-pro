@@ -39,7 +39,7 @@ const MiaPage = () => {
            <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store1, Store2, Store3, Store4, Store5, Store6]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Visit Store</span>
+              <span className="text-sm font-medium text-gray-700">Chetakpuri Store</span>
             </div>
           </div>
 

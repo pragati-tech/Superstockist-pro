@@ -9,10 +9,12 @@ import Titanimg from "../assets/brands/Titan.png"
 import { ArrowRight } from "lucide-react";
 import Catalogue1 from "../assets/pdfs/Titan_Catalogue.pdf"
 import catalogue1img from "../assets/brands/Titan_Catalogueimg.jpg"
-// import Catalogue2 from "../assets/pdfs/Titan_Catalogue2.pdf"
-import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg"
+import Catalogue2 from "../assets/pdfs/Titan_Catalogue2.pdf"
+import Catalogue2img from "../assets/brands/Titan_Catalogue2img.jpg"
 import Catalogue3 from "../assets/pdfs/NEBULA 2024_1.3.pdf"
 import Catalogue3img from "../assets/brands/Titan_Catalogue3img.jpg"
+import Catalogue4 from  "../assets/pdfs/Titan_Catalogue4.pdf";
+import Catalogue4img from "../assets/brands/Titan_Catalogue4img.jpg"
 
 const TitanPage = () => {
   return (
@@ -57,7 +59,7 @@ const TitanPage = () => {
   </div>
 </a>
           {/* Card 2 - Duplicate for now */}
-  <a target="_blank" href={Catalogue1}>
+  <a target="_blank" href={Catalogue2}>
    <div className="group relative w-[30 0px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
         className="w-[300px] h-[400px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
@@ -93,11 +95,11 @@ const TitanPage = () => {
 </a>
 
 {/* Card 4 */}
-  <a target="_blank" href={Catalogue3}>
+  <a target="_blank" href={Catalogue4}>
    <div className="group relative w-[30 0px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
         className="w-[300px] h-[400px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
-        style={{ backgroundImage: `url(${Catalogue3img})` }}
+        style={{ backgroundImage: `url(${Catalogue4img})` }}
       > 
       </div>
 
