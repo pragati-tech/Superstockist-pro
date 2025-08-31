@@ -87,7 +87,7 @@ const TitanWorldPage = () => {
               <ul className="space-y-2 text-gray-400">
                 <li><b>Store 1 : </b>Ground Floor, DB Mall, Opp. Railway Station, <br />Gwalior-474001</li>
                 <li>0751-4924146, 9111006214</li>
-                <li>kgm@titan.co.in</li>
+                <li>Wtkgw@titan.co.in</li>
                  <li><b>Store 2 : </b>Opp. Chetakpuri Petrol Pump, <br />Lashkar, Gwalior-474001</li>
                  <li>0751-4033491, 9111004056</li>
                 <li>Wktlw@titan.co.in</li>

@@ -9,8 +9,8 @@ import Sonataimg from "../assets/brands/Sonata.png"
 import { ArrowRight } from "lucide-react";
 import Catalogue1 from "../assets/pdfs/Sonata_Catalogue1.pdf"
 import Catalogue1img from "../assets/brands/Sonata_Catalogue1img.jpg"
-import Catalogue2 from "../assets/pdfs/Havells_Catalogue2.pdf"
-import Catalogue2img from "../assets/brands/Havells_Catalogue2.jpg"
+import Catalogue2 from "../assets/pdfs/Sonata_Catalogue2.pdf"
+import Catalogue2img from "../assets/brands/Sonata_Catalogue2img.jpg"
 import Catalogue3 from "../assets/pdfs/Sonata_Catalogue3.pdf"
 import Catalogue3img from "../assets/brands/Sonata_Catalogue3img.jpg"
 

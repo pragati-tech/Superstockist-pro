@@ -30,7 +30,7 @@ const PolycabPage = () => {
             loading="lazy"
           />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Since 2024, we have been the distributor and super-stockist for Polycab lightings, serving the Gwalior division.
+            Since 2024, we have been the distributor and super-stockist for Polycab lightings, Wire, MCB, Fans serving the Gwalior division.
           </p>
           <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9109198632, 9109198631</p>
         </div>

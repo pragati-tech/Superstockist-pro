@@ -55,12 +55,12 @@ const ClientsSection = () => {
       bgGradient: "from-blue-50/80 via-indigo-50/60 to-cyan-50/80",
       shadowColor: "shadow-blue-500/20",  
       brands: [
-        { name: "Titan World", img: TitanWorldImg, description: "Since 2008-2018", path: "/brands/titan-world" },
+        { name: "Titan World", img: TitanWorldImg, description: "Since 2008", path: "/brands/titan-world" },
         { name: "Helios", img: HeliosImg, description: "Since 2018", path: "/brands/helios" },
         { name: "Fastrack Store", img: FastrackStoreImg, description: "Since 2018", path: "/brands/fastrack-store" },
         { name: "Nescafe Kiosks", img: NescafeKiosksImg, description: "Since 2023", path: "/brands/nescafe-kiosks" },
         { name: "Mia by Tanishq", img: MiaImg, description: "Since 2024", path: "/brands/mia" },
-        { name: "Titan Care", img:TitanCare, description: "Since 2024", path: "/brands/titan-care"}
+        { name: "Titan Care", img:TitanCare, description: "Since 1995", path: "/brands/titan-care"}
       ]
     }
   ];

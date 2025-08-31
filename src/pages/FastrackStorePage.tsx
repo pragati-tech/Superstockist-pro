@@ -85,9 +85,10 @@ const FastrackStorePage = () => {
               <ul className="space-y-2 text-gray-400">
                <li><b>Store 1 : </b>Ground floor, DB Mall, Opp. Railway Station, Gwalior(M.P.)</li>
                <li>0751-4924138, +91-9111006214</li>
+               <li>fkmpw@titan.co.in</li>
                <li><b>Store 2 : </b>Opp. Chetakpuri Petrol Pump, Lashkar, Gwalior(M.P.)</li>
                 <li>0751-4033491, +91-911100456</li>
-                <li>ktplanuj@yahoo.co.in</li>
+                <li>fgcmw@titan.co.in</li>
               </ul>
             </div>
           </div>
