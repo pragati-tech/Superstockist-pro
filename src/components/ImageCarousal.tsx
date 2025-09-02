@@ -47,7 +47,7 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
   };
 
   return (
-    <div className="relative w-[400px] h-[350px] overflow-hidden">
+    <div className="relative w-[400px] h-[400px] overflow-hidden">
       {/* Images */}
       <div
         className={`flex ${isTransitioning ? "transition-transform duration-700 ease-in-out" : ""}`}
@@ -56,7 +56,7 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
         {slides.map((img, idx) => (
           <div
             key={idx}
-            className="w-[400px] h-[350px] flex-shrink-0 bg-center bg-cover"
+            className="w-[400px] h-[400px] flex-shrink-0 bg-center bg-cover"
             style={{ backgroundImage: `url(${img})` }}
           />
         ))}
