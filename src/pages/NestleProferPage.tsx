@@ -32,10 +32,10 @@ const NestleProferPage = () => {
         <div className="flex justify-around gap-8 mb-10">
           {/* Card 1 */}
           <a target="_blank" href={Catalogue1}>
-        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[350px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogueimg })` }}
       >
       </div>

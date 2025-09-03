@@ -37,10 +37,10 @@ const PolycabPage = () => {
 <div className="flex justify-between gap-5 mb-10">
           {/* Card 1 */}
           <a target="_blank" href={Catalogue1}>
-        <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[300px] h-[350px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[300px] h-[400px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue1img})` }}
       >
       </div>
@@ -56,9 +56,9 @@ const PolycabPage = () => {
 </a>
           {/* Card 2 - Duplicate for now */}
           <a target="_blank" href={Catalogue2}>
-   <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+   <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[300px] h-[350px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[300px] h-[400px] bg-center bg-right bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue2img})` }}
       >
       </div>
@@ -74,9 +74,9 @@ const PolycabPage = () => {
 
           {/* Card 3 */}
                     <a target="_blank" href={Catalogue3}>
-   <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+   <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[300px] h-[350px] bg-center bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[300px] h-[400px] bg-center bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue3img})` }}
       >
       </div>
@@ -92,9 +92,9 @@ const PolycabPage = () => {
 
 {/* Card 4 */}
                     <a target="_blank" href={Catalogue4}>
-   <div className="group relative w-[300px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+   <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <div
-        className="w-[300px] h-[350px] bg-center bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[300px] h-[400px] bg-center bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue4img})` }}
       >
       </div>

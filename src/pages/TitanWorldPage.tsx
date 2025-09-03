@@ -39,7 +39,7 @@ const TitanWorldPage = () => {
           </p>
         </div>
 
-        <div className="flex justify-around gap-8 mb-10">
+        <div className="flex justify-around gap-4 mb-10">
           {/* Card 1 */}
           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store1a, Store1b, Store1c, Store1d, Store1e, Store1f, Store1g]} />

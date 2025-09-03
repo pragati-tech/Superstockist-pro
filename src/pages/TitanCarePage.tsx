@@ -44,7 +44,7 @@ const TitanCarePage = () => {
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Leather Strap Catalogue</span>
+        <span className="text-xs font-medium">Titan Care Catalogue</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>

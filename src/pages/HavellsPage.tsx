@@ -33,13 +33,13 @@ const HavellsPage = () => {
           <p className="text-s font-medium text-gray-400">For Enquiry, kindly contact : +91-9111005823, 9111004059</p>
         </div>
 
-        <div className="flex justify-around gap-8 mb-10">
+        <div className="flex justify-around gap-4 mb-10">
           {/* Card 1 */}
           <a target="_blank" href={Catalogue1}>
-        <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[520px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-top bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogueimg})` }}
       >
       </div>
@@ -47,25 +47,25 @@ const HavellsPage = () => {
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
       <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Home Appliances Catalogue</span>
+        <span className="text-xs font-medium">Home Appliances</span>
         <ArrowRight className="w-3 h-3" />
       </div>
     </div>
   </div>
 </a>
           {/* Card 2 - Duplicate for now */}
-          <a target="_blank" href={Catalogue2}>
-   <div className="group relative w-[400px] h-[350px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+                    <a target="_blank" href={Catalogue2}>
+        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
 
     <div
-        className="w-[400px] h-[350px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
+        className="w-[350px] h-[400px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue2img})` }}
       >
       </div>
 
 
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-3 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
         <span className="text-xs font-medium">Personal Grooming</span>
         <ArrowRight className="w-3 h-3" />
       </div>
