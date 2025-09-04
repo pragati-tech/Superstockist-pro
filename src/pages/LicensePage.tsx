@@ -33,89 +33,72 @@ const LicensePage = () => {
             </p> */}
         </div>
 
-          <div className="flex justify-between mb-10">
-          {/* Card 1 */}
-         
-         <Link to="/Licensebrands/AnneKlein">
-        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-        <div
-            className="w-[300px ] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
-            style={{ backgroundImage: `url(${AnneKleinimg})` }}
-        >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+  {/* Card 1 */}
+  <Link to="/Licensebrands/AnneKlein">
+    <div className="group relative w-full h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-center bg-contain bg-no-repeat m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${AnneKleinimg})` }}
+      />
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full shadow">
+          <span className="text-xs font-medium">Anne Klein</span>
+          <ArrowRight className="w-3 h-3" />
         </div>
-
-
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Anne Klein</span>
-            <ArrowRight className="w-3 h-3" />
-        </div>
-        </div>
+      </div>
     </div>
-    </Link>
-  
-          {/* Card 2 - Duplicate for now */}
-           <Link to="/Licensebrands/Tommy-Hilfiger">
-        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+  </Link>
 
-        <div
-            className="w-[300px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
-            style={{ backgroundImage: `url(${Tommyimg})` }}
-        >
+  {/* Card 2 */}
+  <Link to="/Licensebrands/Tommy-Hilfiger">
+    <div className="group relative w-full h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-center bg-contain bg-no-repeat m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Tommyimg})` }}
+      />
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full shadow">
+          <span className="text-xs font-medium">Tommy Hilfiger</span>
+          <ArrowRight className="w-3 h-3" />
         </div>
-
-
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-        <div className="flex justify-between items-center text-gray-700 bg-white/80 backdrop-blur-sm px-2 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Tommy Hilfiger</span>
-            <ArrowRight className="w-3 h-3" />
-        </div>
-        </div>
+      </div>
     </div>
-    </Link>
+  </Link>
 
-          {/* Card 3 */}
-          <Link to="/Licensebrands/Kenneth-Kole">
-        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-        <div
-            className="w-[280px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
-            style={{ backgroundImage: `url(${Kennethimg})` }}
-        >
+  {/* Card 3 */}
+  <Link to="/Licensebrands/Kenneth-Kole">
+    <div className="group relative w-full h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-center bg-contain bg-no-repeat m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Kennethimg})` }}
+      />
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full shadow">
+          <span className="text-xs font-medium">Kenneth Cole</span>
+          <ArrowRight className="w-3 h-3" />
         </div>
-
-
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Kenneth Cole</span>
-            <ArrowRight className="w-3 h-3" />
-        </div>
-        </div>
+      </div>
     </div>
-    </Link>
-          {/* Card 4 */}
-          <Link to="/Licensebrands/Police">
-        <div className="group relative w-[300px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+  </Link>
 
-        <div
-            className="w-[320px] h-[400px] bg-center bg-contain m-auto transition-transform duration-500 group-hover:scale-110"
-            style={{ backgroundImage: `url(${Policeimg})` }}
-        >
+  {/* Card 4 */}
+  <Link to="/Licensebrands/Police">
+    <div className="group relative w-full h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-center bg-contain bg-no-repeat m-auto transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Policeimg})` }}
+      />
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full shadow">
+          <span className="text-xs font-medium">Police</span>
+          <ArrowRight className="w-3 h-3" />
         </div>
-
-
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-            <span className="text-xs font-medium">Police</span>
-            <ArrowRight className="w-3 h-3" />
-        </div>
-        </div>
+      </div>
     </div>
-    </Link>
-
-          {/* Repeat above block for more cards */}
-        </div>   
+  </Link>
+</div>
+   
       </div>
     <footer className="bg-gray-900 text-white py-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

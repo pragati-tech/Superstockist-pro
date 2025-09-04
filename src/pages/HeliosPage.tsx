@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -6,16 +5,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import ImageCarousel from "@/components/ImageCarousal";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Zap, Clock, Store } from "lucide-react";
-import Heliosimg from "../assets/brands/Helios.png"
+import Heliosimg from "../assets/brands/Helios.png";
 import { ArrowRight } from "lucide-react";
 import img from "../assets/brands/Heliosimg.jpg";
-import Store1 from "../assets/brands/Helios1.jpeg"
-import Store2 from "../assets/brands/Helios2.jpeg"
-import Store3 from "../assets/brands/Helios3.jpeg"
-import Store4 from "../assets/brands/Helios4.jpeg"
-import Store5 from "../assets/brands/Helios5.jpeg"
-import Store6 from "../assets/brands/Helios6.jpeg"
-import Store7 from "../assets/brands/Helios7.jpeg"
+import Store1 from "../assets/brands/Helios1.jpeg";
+import Store2 from "../assets/brands/Helios2.jpeg";
+import Store3 from "../assets/brands/Helios3.jpeg";
+import Store4 from "../assets/brands/Helios4.jpeg";
+import Store5 from "../assets/brands/Helios5.jpeg";
+import Store6 from "../assets/brands/Helios6.jpeg";
+import Store7 from "../assets/brands/Helios7.jpeg";
 
 const HeliosPage = () => {  
   return (
@@ -25,46 +24,54 @@ const HeliosPage = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
         <div className="text-center mb-5">
-           <img
-            src= {Heliosimg}
-            alt =""
-            className="h-20 mx-auto object-cover drop-shadow-lg"
+          <img
+            src={Heliosimg}
+            alt=""
+            className="h-20 mx-auto object-contain drop-shadow-lg"
             loading="lazy"
           />
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             We launched Gwalior's first exclusive Helios store in 2018, providing premium international brands like Movado, Seiko, Tissot, Fossil etc.
           </p>
         </div>
 
-       <div className="flex justify-around gap-8 mb-10">  
-          {/* Card 1 */}
-          <div className="w-[750px] h-[450px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 bg-cover bg-center"style={{ backgroundImage: `url(${img})` }}>
-</div>
-          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+        {/* Responsive Card Section */}
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-10">
+          
+          {/* Left Card (Image background) */}
+          <div 
+            className="w-full lg:w-[750px] h-[250px] sm:h-[350px] lg:h-[450px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 bg-cover bg-center"
+            style={{ backgroundImage: `url(${img})` }}
+          >
+          </div>
+
+          {/* Right Card (Carousel) */}
+          <div className="group relative w-full sm:w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <ImageCarousel images={[Store2, Store1, Store3, Store4, Store5, Store6, Store7]} />
             <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">DB Mall Store</span>
+              <span className="text-sm sm:text-base font-medium text-gray-700">DB Mall Store</span>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Footer */}
       <footer className="bg-gray-900 text-white py-5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center mb-8">
-          <div className="flex items-center space-x-2 mb-4  ">
-            <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SS</span>
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">SS</span>
+              </div>
+              <span className="text-2xl sm:text-3xl font-bold">SuperStock Pro</span>
             </div>
-            <span className="text-3xl font-bold">SuperStock Pro</span>
+            <p className="text-center text-gray-400 max-w-xl">
+              Your trusted superstockist partner for premium brands. 
+              Delivering excellence through innovative solutions and seamless communication.
+            </p>
           </div>
-          <p className="text-center text-gray-400 w-100">
-            Your trusted superstockist partner for premium brands. 
-            Delivering excellence through innovative solutions and seamless communication.
-          </p>
-        </div>
+
           <div className="grid md:grid-cols-2 gap-8 text-center">
-            
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
@@ -76,18 +83,18 @@ const HeliosPage = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-               <li>Ground floor, DB Mall, Opp. Railway Station, Gwalior(M.P.)</li>
-               <li>9109198628</li>
+                <li>Ground floor, DB Mall, Opp. Railway Station, Gwalior(M.P.)</li>
+                <li>9109198628</li>
                 <li>Hmgw@titan.co.in</li>
               </ul>
             </div>
           </div>
       
-        <div className="border-t border-gray-800 mt-4 pt-8 text-gray-400 text-center">
-          <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+          <div className="border-t border-gray-800 mt-4 pt-8 text-gray-400 text-center">
+            <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     </div>
   );
 };

@@ -26,45 +26,42 @@ const THPage = () => {
           />
         </div>
 
-        <div className="flex justify-around gap-5 mb-10">
-          {/* Card 1 */}
-          <a target="_blank" href={Catalogue1}>
-        <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-
-    <div  
-        className="w-[350px] h-[400px] bg-left bg-cover transition-transform duration-500 group-hover:scale-110"
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
+  {/* Card 1 */}
+  <a target="_blank" href={Catalogue1}>
+    <div className="group relative w-full max-w-[350px] mx-auto aspect-[7/9] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-left bg-cover transition-transform duration-500 group-hover:scale-110"
         style={{ backgroundImage: `url(${Catalogue1img})` }}
-      >
-      </div>
+      ></div>
 
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Winter'24 Catalogue</span>
-        <ArrowRight className="w-3 h-3" />
-      </div>
-    </div>
-  </div>
-</a>
-          {/* Card 2 - Duplicate for now */}
-          <a target="_blank" href={Catalogue2}>
-   <div className="group relative w-[350px] h-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-    <div
-        className="w-[350px] h-[400px] bg-center bg-cover m-auto transition-transform duration-500 group-hover:scale-110"
-        style={{ backgroundImage: `url(${Catalogue2img})` }}
-      > 
-      </div>
-
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-      <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
-        <span className="text-xs font-medium">Apr'25 Catalogue</span>
-        <ArrowRight className="w-3 h-3" />
-      </div>
-    </div>
-  </div>
-</a>
-          {/* Repeat above block for more cards */}
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+          <span className="text-xs font-medium">Winter'24 Catalogue</span>
+          <ArrowRight className="w-3 h-3" />
         </div>
+      </div>
+    </div>
+  </a>
+
+  {/* Card 2 */}
+  <a target="_blank" href={Catalogue2}>
+    <div className="group relative w-full max-w-[350px] mx-auto aspect-[7/9] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+      <div
+        className="w-full h-full bg-center bg-cover transition-transform duration-500 group-hover:scale-110"
+        style={{ backgroundImage: `url(${Catalogue2img})` }}
+      ></div>
+
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+        <div className="flex items-center gap-2 text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-3 rounded-full shadow">
+          <span className="text-xs font-medium">Apr'25 Catalogue</span>
+          <ArrowRight className="w-3 h-3" />
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
       </div>
     <footer className="bg-gray-900 text-white py-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

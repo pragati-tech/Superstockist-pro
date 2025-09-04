@@ -37,47 +37,56 @@ const NescafeKiosksPage = () => {
           </p>
         </div>
 
-          <div className="flex justify-around gap-8 mb-10 flex-wrap">
-          {/* Card 1 */}
-         
-         <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store1a, Store1b, Store1c]} />
-            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">ITM University Jhansi Rd, Turari, Gwalior, Lakhnotikhurd, Madhya Pradesh</span><br/>
-              <span className="text-sm font-medium text-gray-700">474001</span>
-            </div>
-          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mb-10 justify-items-center">
+  {/* Card 1 */}
+  <div className="group relative w-full sm:w-[350px] md:w-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+    <ImageCarousel images={[Store1a, Store1b, Store1c]} />
+    <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+      <span className="text-sm font-medium text-gray-700">
+        ITM University Jhansi Rd, Turari, Gwalior, Lakhnotikhurd, Madhya Pradesh
+      </span>
+      <br />
+      <span className="text-sm font-medium text-gray-700">474001</span>
+    </div>
+  </div>
 
-  
-          {/* Card 2 */}
-           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store2a, Store2b]} />
-            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">Amity University opposite Airport, Maharajpura, Gwalior, Madhya Pradesh</span><br/>
-              <span className="text-sm font-medium text-gray-700">474005</span>
-            </div>
-          </div>
+  {/* Card 2 */}
+  <div className="group relative w-full sm:w-[350px] md:w-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+    <ImageCarousel images={[Store2a, Store2b]} />
+    <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+      <span className="text-sm font-medium text-gray-700">
+        Amity University opposite Airport, Maharajpura, Gwalior, Madhya Pradesh
+      </span>
+      <br />
+      <span className="text-sm font-medium text-gray-700">474005</span>
+    </div>
+  </div>
 
-          {/* Card 3 */}
-           <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store3a, Store3b, Store3c]} />
-            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">IIITM University Morena Rd, IIITM Campus, Gwalior , Madhya Pradesh</span><br/>
-              <span className="text-sm font-medium text-gray-700">474015</span>
-            </div>
-          </div>
+  {/* Card 3 */}
+  <div className="group relative w-full sm:w-[350px] md:w-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+    <ImageCarousel images={[Store3a, Store3b, Store3c]} />
+    <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+      <span className="text-sm font-medium text-gray-700">
+        IIITM University Morena Rd, IIITM Campus, Gwalior , Madhya Pradesh
+      </span>
+      <br />
+      <span className="text-sm font-medium text-gray-700">474015</span>
+    </div>
+  </div>
 
-          {/* Card 4 Need to change images*/}
-          <div className="group relative w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
-            <ImageCarousel images={[Store4a, Store4b]} />
-            <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-              <span className="text-sm font-medium text-gray-700">5566+34J, Plot No.1, Green South Avenue ShivpuriLink Road, Gwalior, Madhya Pradesh</span><br/>
-              <span className="text-sm font-medium text-gray-700">474015</span>
-            </div>  
-          </div>  
-
-          {/* Repeat above block for more cards */}
-        </div>      
+  {/* Card 4 */}
+  <div className="group relative w-full sm:w-[350px] md:w-[400px] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
+    <ImageCarousel images={[Store4a, Store4b]} />
+    <div className="w-full text-center py-3 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+      <span className="text-sm font-medium text-gray-700">
+        5566+34J, Plot No.1, Green South Avenue ShivpuriLink Road, Gwalior, Madhya Pradesh
+      </span>
+      <br />
+      <span className="text-sm font-medium text-gray-700">474015</span>
+    </div>
+  </div>
+</div>
+      
       </div>
     <footer className="bg-gray-900 text-white py-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
