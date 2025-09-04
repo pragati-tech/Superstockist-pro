@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";    
-import DirectorsPage from "../pages/DirectorsPage"
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -26,18 +26,20 @@ const Navigation = () => {
     <nav className="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
         <div className="flex justify-between items-center h-14">
+          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">SS</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">SuperStock Pro</span>
+            <span className="text-xl font-bold text-gray-900">
+              SuperStock Pro
+            </span>
           </Link>
 
-          
-          <div className="flex items-center space-x-6">
-
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-6">
             <Link to="/directors">
-            <h1 className="text-gray-900 font-medium">About Directors</h1>
+              <h1 className="text-gray-900 font-medium">About Directors</h1>
             </Link>
 
             {/* Brands Dropdown */}
@@ -77,10 +79,84 @@ const Navigation = () => {
 
             <a href="/#contact">
               <h1 className="text-gray-900 font-medium">Contact</h1>
-            </a >
+            </a>
+          </div>
+
+          {/* Mobile Hamburger */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="text-gray-900 focus:outline-none"
+            >
+              {mobileMenuOpen ? "✖" : "☰"}
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Mobile Menu Dropdown */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-white border-t border-gray-200 px-4 py-3 space-y-3">
+          <Link
+            to="/directors"
+            className="block text-gray-900 font-medium"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            About Directors
+          </Link>
+
+          <div>
+            <button
+              onClick={() => setDropdownOpen((prev) => !prev)}
+              className="text-gray-900 font-medium w-full text-left"
+            >
+              Brands ▾
+            </button>
+            {dropdownOpen && (
+              <div className="ml-4 mt-2 space-y-2">
+                <a
+                  href="/#distributor-section"
+                  className="block text-sm text-gray-700"
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Distributor
+                </a>
+                <a
+                  href="/#super-stockist-section"
+                  className="block text-sm text-gray-700"
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Superstockist
+                </a>
+                <a
+                  href="/#exclusive-stores-section"
+                  className="block text-sm text-gray-700"
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Exclusive Stores
+                </a>
+              </div>
+            )}
+          </div>
+
+          <a
+            href="/#contact"
+            className="block text-gray-900 font-medium"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Contact
+          </a>
+        </div>
+      )}
     </nav>
   );
 };
