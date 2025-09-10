@@ -20,6 +20,7 @@
   import Store2c from "../assets/brands/Titan_World2c.jpeg"
   import Store2d from "../assets/brands/Titan_World2d.jpeg"
   import Store2e from "../assets/brands/Titan_World2e.jpeg"
+  import logo from "../assets/brands/nav_logo.png"
 
   const TitanWorldPage = () => {
     return (
@@ -39,7 +40,7 @@
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-around gap-6 mb-10">
+          <div className="flex flex-wrap justify-around  gap-6 mb-10">
   {/* Card 1 */}
   <div className="group relative w-full sm:w-[300px] md:w-[350px] lg:w-[400px] h-auto rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
     <ImageCarousel images={[Store1a, Store1b, Store1c, Store1d, Store1e, Store1f, Store1g]} />
@@ -62,10 +63,13 @@
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center mb-8">
             <div className="flex items-center space-x-2 mb-4  ">
-              <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SS</span>
-              </div>
-              <span className="text-3xl font-bold">SuperStock Pro</span>
+              <div className="w-20 flex items-center justify-center">
+              <span><img src={logo} alt="" /></span>
+            </div>
+            <span style={{color:"#0386c9"}} className="font-medium">
+              Khandelwal Enterprises <br/>
+              Krishna Tradlinks Pvt. Ltd.
+            </span>
             </div>
             <p className="text-center text-gray-400 w-100">
               Your trusted superstockist partner for premium brands. 
@@ -86,7 +90,7 @@
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-gray-400">
                   <li><b>Store 1 : </b>Ground Floor, DB Mall, Opp. Railway Station, <br />Gwalior-474001</li>
-                  <li>0751-4924146, 9111006214</li>
+                  <li>0751-4924146, 9111006214</li> 
                   <li>Wtkgw@titan.co.in</li>
                   <li><b>Store 2 : </b>Opp. Chetakpuri Petrol Pump, <br />Lashkar, Gwalior-474001</li>
                   <li>0751-4033491, 9111004056</li>
@@ -96,7 +100,7 @@
             </div>
         
           <div className="border-t border-gray-800 mt-4 pt-8 text-gray-400 text-center">
-            <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+            <p>&copy; 2025 kektpl. All rights reserved.</p>
           </div>
         </div>
       </footer>

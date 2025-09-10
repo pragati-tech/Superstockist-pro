@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/brands/nav_logo.png" 
 
 const Navigation = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -28,11 +29,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-14">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SS</span>
+            <div className="w-20 flex items-center justify-center">
+              <span><img src={logo} alt="" /></span>
             </div>
-            <span className="text-xl font-bold text-gray-900">
-              SuperStock Pro
+            <span style={{color:"#0386c9"}} className="font-medium text-xs  ">
+              Khandelwal Enterprises <br/>
+              Krishna Tradlinks Pvt. Ltd.
             </span>
           </Link>
 

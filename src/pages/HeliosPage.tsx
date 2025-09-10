@@ -15,6 +15,7 @@ import Store4 from "../assets/brands/Helios4.jpeg";
 import Store5 from "../assets/brands/Helios5.jpeg";
 import Store6 from "../assets/brands/Helios6.jpeg";
 import Store7 from "../assets/brands/Helios7.jpeg";
+import logo from "../assets/brands/nav_logo.png"
 
 const HeliosPage = () => {  
   return (
@@ -60,10 +61,13 @@ const HeliosPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center mb-8">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SS</span>
-              </div>
-              <span className="text-2xl sm:text-3xl font-bold">SuperStock Pro</span>
+              <div className="w-20 flex items-center justify-center">
+              <span><img src={logo} alt="" /></span>
+            </div>
+            <span style={{color:"#0386c9"}} className="font-medium">
+              Khandelwal Enterprises <br/>
+              Krishna Tradlinks Pvt. Ltd.
+            </span>
             </div>
             <p className="text-center text-gray-400 max-w-xl">
               Your trusted superstockist partner for premium brands. 
@@ -91,7 +95,7 @@ const HeliosPage = () => {
           </div>
       
           <div className="border-t border-gray-800 mt-4 pt-8 text-gray-400 text-center">
-            <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+            <p>&copy; 2025 kektpl. All rights reserved.</p>
           </div>
         </div>
       </footer>

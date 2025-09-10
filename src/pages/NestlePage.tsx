@@ -5,6 +5,7 @@ import Nestleimg from "../assets/brands/Nestle.png";
 import Maggieimg from "../assets/brands/Maggie.jpg";
 import Kitkatimg from "../assets/brands/Kitkat.png";
 import Coffeeimg from "../assets/brands/Coffee.png";
+import logo from "../assets/brands/nav_logo.png"
 
 const NestlePage = () => {
   return (
@@ -34,7 +35,7 @@ const NestlePage = () => {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center mb-5">
           {/* Card 1 - Maggie */}
           <div className="group relative w-full max-w-sm aspect-[3/4] rounded-2xl bg-white/70 backdrop-blur-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200">
             <div
@@ -84,12 +85,13 @@ const NestlePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center mb-8 text-center">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SS</span>
-              </div>
-              <span className="text-2xl sm:text-3xl font-bold">
-                SuperStock Pro
-              </span>
+              <div className="w-20 flex items-center justify-center">
+              <span><img src={logo} alt="" /></span>
+            </div>
+            <span style={{color:"#0386c9"}} className="font-medium">
+              Khandelwal Enterprises <br/>
+              Krishna Tradlinks Pvt. Ltd.
+            </span>
             </div>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
               Your trusted superstockist partner for premium brands. Delivering
@@ -97,7 +99,7 @@ const NestlePage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center sm:text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center">
             <div>
               <h4 className="font-semibold mb-3">Quick Links</h4>
               <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
@@ -133,7 +135,7 @@ const NestlePage = () => {
           </div>
 
           <div className="border-t border-gray-800 mt-6 pt-6 text-gray-400 text-center text-sm">
-            <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+            <p>&copy; 2025 kektpl. All rights reserved.</p>
           </div>
         </div>
       </footer>

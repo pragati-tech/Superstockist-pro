@@ -8,6 +8,7 @@
   import Catalogue2img from "../assets/brands/Sonata_Catalogue2img.jpg";
   import Catalogue3 from "../assets/pdfs/Sonata_Catalogue3.pdf";
   import Catalogue3img from "../assets/brands/Sonata_Catalogue3img.jpg";
+  import logo from "../assets/brands/nav_logo.png"
 
   const SonataPage = () => {
     return (
@@ -95,10 +96,13 @@
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center mb-8">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 business-gradient rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">SS</span>
-                </div>
-                <span className="text-2xl sm:text-3xl font-bold">SuperStock Pro</span>
+                <div className="w-20 flex items-center justify-center">
+              <span><img src={logo} alt="" /></span>
+            </div>
+            <span style={{color:"#0386c9"}} className="font-medium">
+              Khandelwal Enterprises <br/>
+              Krishna Tradlinks Pvt. Ltd.
+            </span>
               </div>
               <p className="text-center text-gray-400 text-sm sm:text-base max-w-xl">
                 Your trusted superstockist partner for premium brands. Delivering
@@ -139,7 +143,7 @@
             </div>
 
             <div className="border-t border-gray-800 mt-6 pt-6 text-gray-400 text-center text-sm">
-              <p>&copy; 2025 SuperStock Pro. All rights reserved.</p>
+              <p>&copy; 2025 kektpl. All rights reserved.</p>
             </div>
           </div>
         </footer>
